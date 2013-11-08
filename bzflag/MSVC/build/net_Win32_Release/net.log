@@ -1,0 +1,8 @@
+﻿  Address.cxx
+  AresHandler.cxx
+  multicast.cxx
+  network.cxx
+  Pack.cxx
+  Ping.cxx
+  Generating Code...
+  net.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\./net_Win32_Release\net.lib

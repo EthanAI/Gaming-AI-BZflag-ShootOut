@@ -1,0 +1,156 @@
+﻿  window.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  util.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  touch.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  terminfo.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  termattr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  slk.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+..\..\src\other\PDCurses\pdcurses\slk.c(297): warning C4244: '=' : conversion from 'chtype' to 'char', possible loss of data
+  scroll.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  scr_dump.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  scanw.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  refresh.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  printw.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  pdcutil.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  pdcsetsc.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  pdcscrn.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  pdckbd.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  pdcgetsc.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  pdcdisp.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  pdcclip.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  panel.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  pad.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  Generating Code...
+  Compiling...
+  overlay.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  outopts.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  move.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  mouse.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  keyname.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  kernel.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  instr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+..\..\src\other\PDCurses\pdcurses\instr.c(90): warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+  insstr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  insch.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  inopts.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  initscr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  inchstr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  inch.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  getyx.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  getstr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  getch.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  deprec.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  deleteln.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  delch.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  debug.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  Generating Code...
+  Compiling...
+  color.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  clear.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  border.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  bkgd.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  beep.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  attr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  addstr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  addchstr.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  addch.c
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\src\other\PDCurses\curspriv.h(15): warning C4005: 'CURSES_LIBRARY' : macro redefinition
+          command-line arguments :  see previous definition of 'CURSES_LIBRARY'
+  Generating Code...
+LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+  pdcurses.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\MSVC\build\pdcurses_Win32_Debug\pdcurses.lib

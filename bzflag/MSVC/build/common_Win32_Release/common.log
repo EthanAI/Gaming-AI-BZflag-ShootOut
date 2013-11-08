@@ -1,0 +1,40 @@
+﻿  AccessList.cxx
+  AutoCompleter.cxx
+  Bundle.cxx
+  BundleMgr.cxx
+  bz_Locale.cxx
+  BZDBCache.cxx
+  bzfio.cxx
+  bzglob.cxx
+  BzPNG.cxx
+  CommandManager.cxx
+  ConfigFileManager.cxx
+  Country.cxx
+  cURLManager.cxx
+  ErrorHandler.cxx
+  FileManager.cxx
+  Flag.cxx
+  GameTime.cxx
+  global.cxx
+  KeyManager.cxx
+  Language.cxx
+  Generating Code...
+  Compiling...
+  md5.cxx
+  messages.cxx
+  OSFile.cxx
+  ParseColor.cxx
+  PlayerState.cxx
+  PositionTracker.cxx
+  ShotUpdate.cxx
+  StateDatabase.cxx
+  Team.cxx
+  TextChunkManager.cxx
+  TextUtils.cxx
+  TimeBomb.cxx
+  TimeKeeper.cxx
+  VotingBooth.cxx
+  WordFilter.cxx
+  Generating Code...
+  bzsignal.c
+  common.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\./common_Win32_Release\common.lib

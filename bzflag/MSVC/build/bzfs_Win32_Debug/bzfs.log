@@ -1,0 +1,71 @@
+﻿  AccessControlList.cxx
+  Authentication.cxx
+  BanCommands.cxx
+  bzfs.cxx
+  CmdLineOptions.cxx
+  commands.cxx
+  DropGeometry.cxx
+  EntryZones.cxx
+  Filter.cxx
+  FlagHistory.cxx
+  FlagInfo.cxx
+  GameKeeper.cxx
+  ListServerConnection.cxx
+  MasterBanList.cxx
+  ParseMaterial.cxx
+  Permissions.cxx
+  RecordReplay.cxx
+  RejoinList.cxx
+  Score.cxx
+  ServerCommand.cxx
+  Generating Code...
+  Compiling...
+  SpawnPolicy.cxx
+  SpawnPosition.cxx
+  TeamBases.cxx
+  BZWError.cxx
+  BZWReader.cxx
+  CustomArc.cxx
+  CustomBase.cxx
+  CustomBox.cxx
+  CustomCone.cxx
+  CustomDynamicColor.cxx
+  CustomGate.cxx
+  CustomGroup.cxx
+  CustomLink.cxx
+  CustomMaterial.cxx
+  CustomMesh.cxx
+  CustomMeshFace.cxx
+  CustomMeshTransform.cxx
+  CustomPhysicsDriver.cxx
+  CustomPyramid.cxx
+  CustomSphere.cxx
+  Generating Code...
+  Compiling...
+  CustomTetra.cxx
+  CustomTextureMatrix.cxx
+  CustomWaterLevel.cxx
+  CustomWeapon.cxx
+  CustomWorld.cxx
+  CustomZone.cxx
+  WorldEventManager.cxx
+  WorldFileLocation.cxx
+  WorldFileObject.cxx
+  WorldFileObstacle.cxx
+  WorldGenerators.cxx
+  WorldInfo.cxx
+  WorldWeapons.cxx
+  base64.cxx
+  bzfsAPI.cxx
+  bzfsPlugins.cxx
+  ServerSidePlayer.cxx
+  bzfsHTTPAPI.cxx
+  Generating Code...
+     Creating library bzfs_Win32_Debug\bzfs.lib and object bzfs_Win32_Debug\bzfs.exp
+     Creating library bzfs_Win32_Debug\bzfs.lib and object bzfs_Win32_Debug\bzfs.exp
+  bzfs.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\Raw Working Template\bzflag-2.4.2\MSVC\build\bzfs_Win32_Debug\bzfs.exe
+  A subdirectory or file ..\..\bin_Win32 already exists.
+  bzfs_Win32_Debug\bzfs.exe
+          1 file(s) copied.
+  bzfs_Win32_Debug\bzfs.lib
+          1 file(s) copied.

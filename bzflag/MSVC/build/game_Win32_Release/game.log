@@ -1,0 +1,25 @@
+﻿  BzMaterial.cxx
+  CacheManager.cxx
+  CollisionManager.cxx
+  CommandsStandard.cxx
+  DirectoryNames.cxx
+  DynamicColor.cxx
+  Frustum.cxx
+  Intersect.cxx
+  LagInfo.cxx
+  LinkManager.cxx
+  MeshTransform.cxx
+  NetHandler.cxx
+  PhysicsDriver.cxx
+  PlayerInfo.cxx
+  Ray.cxx
+  ServerItem.cxx
+  ServerList.cxx
+  ServerListCache.cxx
+  StartupInfo.cxx
+  TextureMatrix.cxx
+  Generating Code...
+  Compiling...
+  VotingArbiter.cxx
+  Generating Code...
+  game.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\./game_Win32_Release\game.lib

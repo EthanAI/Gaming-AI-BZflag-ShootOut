@@ -1,0 +1,285 @@
+﻿  ActionBinding.cxx
+  AutoPilot.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  RobotPlayer.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(254): warning C4101: 'buffer' : unreferenced local variable
+..\..\src\bzflag\RobotPlayer.cxx(653): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(653): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(686): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(687): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(706): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(707): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(780): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(781): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(782): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+..\..\src\bzflag\RobotPlayer.cxx(783): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(235): warning C4018: '<' : signed/unsigned mismatch
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(231) : while compiling class template member function 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::~HashTableContainer(void)'
+          with
+          [
+              NodeType=myNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(255) : see reference to class template instantiation 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>' being compiled
+          with
+          [
+              NodeType=myNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(255) : while compiling class template member function 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>::~GenericPlanner(void)'
+          with
+          [
+              NodeType=myNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\planners/A_star.h(66) : see reference to class template instantiation 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>' being compiled
+          with
+          [
+              NodeType=myNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          ..\..\src\bzflag\RobotPlayer.cxx(799) : see reference to class template instantiation 'A_star_planner<NodeType,CostType>' being compiled
+          with
+          [
+              NodeType=myNode,
+              CostType=double
+          ]
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\planners/A_star.h(191): warning C4018: '<' : signed/unsigned mismatch
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\planners/A_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
+          with
+          [
+              NodeType=myNode,
+              CostType=double
+          ]
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\planners/A_star.h(345): warning C4018: '<' : signed/unsigned mismatch
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\planners/A_star.h(264) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::plan(void)'
+          with
+          [
+              NodeType=myNode,
+              CostType=double
+          ]
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\planners/A_star.h(476): warning C4018: '<' : signed/unsigned mismatch
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\planners/A_star.h(473) : while compiling class template member function 'std::vector<_Ty> A_star_planner<NodeType,CostType>::getPlannedPaths(void)'
+          with
+          [
+              _Ty=std::vector<myNode>,
+              NodeType=myNode,
+              CostType=double
+          ]
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(316): warning C4018: '<' : signed/unsigned mismatch
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(293) : while compiling class template member function 'void HeapContainer<NodeType,CostType,PlannerSpecificVariables>::update(SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *,HeapContainer<NodeType,CostType,PlannerSpecificVariables>::BubbleDirection)'
+          with
+          [
+              NodeType=myNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\planners/A_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
+          with
+          [
+              NodeType=myNode,
+              CostType=double
+          ]
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(316): warning C4018: '<' : signed/unsigned mismatch
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(318): warning C4018: '<' : signed/unsigned mismatch
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(320): warning C4018: '<' : signed/unsigned mismatch
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(543): warning C4018: '<' : signed/unsigned mismatch
+          C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.h(539) : while compiling class template member function 'SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::getNodeInHash(NodeType)'
+          with
+          [
+              NodeType=myNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+  BZDBLocal.cxx
+  bzflag.cxx
+  callbacks.cxx
+  clientCommands.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  CommandsImplementation.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  Downloads.cxx
+  EntryZone.cxx
+  FlashClock.cxx
+  ForceFeedback.cxx
+  LocalCommand.cxx
+  MainWindow.cxx
+  motd.cxx
+  Plan.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  Region.cxx
+  Roaming.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  RoofTops.cxx
+  ServerLink.cxx
+  Generating Code...
+  Compiling...
+  ServerListFilter.cxx
+..\..\src\bzflag\ServerListFilter.cxx(214): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\src\bzflag\ServerListFilter.cxx(215): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\src\bzflag\ServerListFilter.cxx(216): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\src\bzflag\ServerListFilter.cxx(217): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\src\bzflag\ServerListFilter.cxx(218): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+..\..\src\bzflag\ServerListFilter.cxx(457): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  ShotStatistics.cxx
+  ShotStats.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  ShotStatsDefaultKey.cxx
+  sound.cxx
+  TargetingUtils.cxx
+  TrackMarks.cxx
+  Weapon.cxx
+  BackgroundRenderer.cxx
+  ControlPanel.cxx
+  daylight.cxx
+  effectsRenderer.cxx
+  HUDDialog.cxx
+  HUDRenderer.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  HUDui.cxx
+  HUDuiControl.cxx
+  HUDuiDefaultKey.cxx
+  HUDuiLabel.cxx
+  HUDuiList.cxx
+  HUDuiTextureLabel.cxx
+  Generating Code...
+  Compiling...
+  HUDuiTypeIn.cxx
+  RadarRenderer.cxx
+  SceneBuilder.cxx
+  SceneRenderer.cxx
+  ScoreboardRenderer.cxx
+  stars.cxx
+  WeatherRenderer.cxx
+  BaseLocalPlayer.cxx
+  ComposeDefaultKey.cxx
+  LocalPlayer.cxx
+  Player.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  playing.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+..\..\src\bzflag\playing.cxx(1571): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+  RegionPriorityQueue.cxx
+  RemotePlayer.cxx
+  Roster.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  ServerCommandKey.cxx
+  SilenceDefaultKey.cxx
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  World.cxx
+  WorldBuilder.cxx
+  WorldPlayer.cxx
+  Generating Code...
+  Compiling...
+  GuidedMissleStrategy.cxx
+  SegmentedShotStrategy.cxx
+  ShockWaveStrategy.cxx
+  ShotPath.cxx
+  ShotPathSegment.cxx
+  ShotStrategy.cxx
+  AudioMenu.cxx
+  CacheMenu.cxx
+  DisplayMenu.cxx
+  EffectsMenu.cxx
+  FormatMenu.cxx
+  GUIOptionsMenu.cxx
+  HelpMenu.cxx
+  HUDDialogStack.cxx
+  InputMenu.cxx
+  JoinMenu.cxx
+  KeyboardMapMenu.cxx
+  MainMenu.cxx
+  MenuDefaultKey.cxx
+  NewVersionMenu.cxx
+  Generating Code...
+  Compiling...
+  OptionsMenu.cxx
+  QuickKeysMenu.cxx
+  QuitMenu.cxx
+  SaveWorldMenu.cxx
+  ServerMenu.cxx
+  ServerStartMenu.cxx
+  defaultBZDB.cxx
+  clientConfig.cxx
+  Generating Code...
+  glew.c
+  myNode.h
+myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+myNode.h(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+myNode.h(72): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+myNode.h(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+myNode.h(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+common.lib(TextUtils.obj) : error LNK2001: unresolved external symbol _regfree
+common.lib(AccessList.obj) : error LNK2001: unresolved external symbol _regfree
+motd.obj : error LNK2019: unresolved external symbol _regfree referenced in function "public: virtual void __thiscall MessageOfTheDay::finalization(char *,unsigned int,bool)" (?finalization@MessageOfTheDay@@UAEXPADI_N@Z)
+ServerListFilter.obj : error LNK2001: unresolved external symbol _regfree
+ControlPanel.obj : error LNK2001: unresolved external symbol _regfree
+common.lib(WordFilter.obj) : error LNK2001: unresolved external symbol _regfree
+common.lib(TextUtils.obj) : error LNK2001: unresolved external symbol _regexec
+common.lib(AccessList.obj) : error LNK2001: unresolved external symbol _regexec
+motd.obj : error LNK2019: unresolved external symbol _regexec referenced in function "public: virtual void __thiscall MessageOfTheDay::finalization(char *,unsigned int,bool)" (?finalization@MessageOfTheDay@@UAEXPADI_N@Z)
+ServerListFilter.obj : error LNK2001: unresolved external symbol _regexec
+ControlPanel.obj : error LNK2001: unresolved external symbol _regexec
+common.lib(WordFilter.obj) : error LNK2001: unresolved external symbol _regexec
+common.lib(TextUtils.obj) : error LNK2001: unresolved external symbol _regcomp
+common.lib(AccessList.obj) : error LNK2001: unresolved external symbol _regcomp
+motd.obj : error LNK2019: unresolved external symbol _regcomp referenced in function "public: virtual void __thiscall MessageOfTheDay::finalization(char *,unsigned int,bool)" (?finalization@MessageOfTheDay@@UAEXPADI_N@Z)
+ServerListFilter.obj : error LNK2001: unresolved external symbol _regcomp
+ControlPanel.obj : error LNK2001: unresolved external symbol _regcomp
+common.lib(WordFilter.obj) : error LNK2001: unresolved external symbol _regcomp
+ServerListFilter.obj : error LNK2019: unresolved external symbol _regerror referenced in function "public: bool __thiscall ServerListFilter::PatternFilter::setupRegex(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)" (?setupRegex@PatternFilter@ServerListFilter@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+common.lib(WordFilter.obj) : error LNK2001: unresolved external symbol _regerror
+bzflag_Win32_Release\bzflag.exe : fatal error LNK1120: 4 unresolved externals

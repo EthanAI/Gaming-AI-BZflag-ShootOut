@@ -1,0 +1,93 @@
+﻿  RobotPlayer.cxx
+  yagsbpl_base.cpp
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(31): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(31): error C2182: 'HeapContainer' : illegal use of type 'void'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(31): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(31): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(31): error C2039: 'update' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(79): error C2039: 'push' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(80): error C2143: syntax error : missing ';' before '{'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(80): error C2447: '{' : missing function header (old-style formal list?)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(93): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(93): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(93): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(93): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(93): error C2039: 'pop' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(111): error C2039: 'remove' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(112): error C2143: syntax error : missing ';' before '{'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(112): error C2447: '{' : missing function header (old-style formal list?)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(124): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(124): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(124): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(124): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(139): error C2039: 'init' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(140): error C2143: syntax error : missing ';' before '{'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(140): error C2447: '{' : missing function header (old-style formal list?)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(150): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(150): error C2086: 'int GenericSearchGraphDescriptor' : redefinition
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(124) : see declaration of 'GenericSearchGraphDescriptor'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(150): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(150): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(150): error C2039: '_getHashBin' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(167): error C2039: '_isAccessible' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(168): error C2143: syntax error : missing ';' before '{'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(168): error C2447: '{' : missing function header (old-style formal list?)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(184): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(184): error C2182: 'GenericSearchGraphDescriptor' : illegal use of type 'void'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(184): error C2086: 'int GenericSearchGraphDescriptor' : redefinition
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(124) : see declaration of 'GenericSearchGraphDescriptor'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(184): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(184): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(184): error C2039: '_getSuccessors' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(184): error C2039: 'vector' : is not a member of 'std'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(184): error C2039: 'vector' : is not a member of 'std'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(193): error C2039: '_getPredecessors' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(193): error C2039: 'vector' : is not a member of 'std'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(193): error C2039: 'vector' : is not a member of 'std'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(194): error C2143: syntax error : missing ';' before '{'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(194): error C2447: '{' : missing function header (old-style formal list?)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(202): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(202): error C2371: 'GenericSearchGraphDescriptor' : redefinition; different basic types
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(124) : see declaration of 'GenericSearchGraphDescriptor'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(202): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(202): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(202): error C2039: '_getHeuristics' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(219): error C2039: '_getHeuristicsToTarget' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(220): error C2143: syntax error : missing ';' before '{'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(220): error C2447: '{' : missing function header (old-style formal list?)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(225): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(225): error C2371: 'GenericSearchGraphDescriptor' : redefinition; different basic types
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(124) : see declaration of 'GenericSearchGraphDescriptor'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(225): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(225): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(225): error C2039: '_storePath' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(242): error C2039: '_stopSearch' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(243): error C2143: syntax error : missing ';' before '{'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(243): error C2447: '{' : missing function header (old-style formal list?)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(265): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(265): error C2182: 'HashTableContainer' : illegal use of type 'void'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(265): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(265): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(265): error C2039: 'init_HastTable' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(276): error C2039: 'getNodeInHash' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(277): error C2143: syntax error : missing ';' before '{'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(277): error C2447: '{' : missing function header (old-style formal list?)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(299): error C2143: syntax error : missing ';' before '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(299): error C2182: 'GenericPlanner' : illegal use of type 'void'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(299): error C2988: unrecognizable template declaration/definition
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(299): error C2059: syntax error : '<'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\yagsbpl\yagsbpl_base.cpp(299): error C2039: 'init' : is not a member of '`global namespace''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(364): error C2065: 'endPoint' : undeclared identifier
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(364): error C2065: 'endPoint' : undeclared identifier
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(438): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(625): error C2065: 'pathGoalNode' : undeclared identifier
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(630): error C2065: 'pathGoalNode' : undeclared identifier
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(630): error C2228: left of '.setX' must have class/struct/union
+          type is ''unknown-type''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(631): error C2065: 'pathGoalNode' : undeclared identifier
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(631): error C2228: left of '.setY' must have class/struct/union
+          type is ''unknown-type''
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(638): warning C4018: '<' : signed/unsigned mismatch
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(777): error C2511: 'int RobotPlayer::computeCenterOfMass(float,float [])' : overloaded member function not found in 'RobotPlayer'
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.h(35) : see declaration of 'RobotPlayer'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\bzflag-2.4.2\src\bzflag\robotplayer.cxx(1114): warning C4018: '<' : signed/unsigned mismatch

@@ -1,0 +1,50 @@
+﻿  AnimatedTreads.cxx
+  BillboardSceneNode.cxx
+  BoltSceneNode.cxx
+  EighthDBaseSceneNode.cxx
+  EighthDBoxSceneNode.cxx
+  EighthDimSceneNode.cxx
+  EighthDimShellNode.cxx
+  EighthDPyrSceneNode.cxx
+  FlagSceneNode.cxx
+  FlagWarpSceneNode.cxx
+  LaserSceneNode.cxx
+  MeshDrawMgr.cxx
+  MeshFragSceneNode.cxx
+  MeshPolySceneNode.cxx
+  MeshRenderNode.cxx
+  MeshSceneNode.cxx
+  OccluderSceneNode.cxx
+  PolyWallSceneNode.cxx
+  PTSceneNode.cxx
+  QuadWallSceneNode.cxx
+  Generating Code...
+  Compiling...
+  SceneNode.cxx
+  ShellSceneNode.cxx
+  SphereSceneNode.cxx
+  TankGeometryMgr.cxx
+  TankSceneNode.cxx
+  TracerSceneNode.cxx
+  TriWallSceneNode.cxx
+  ViewFrustum.cxx
+  WallSceneNode.cxx
+  high_barrel.cxx
+  high_body.cxx
+  high_ltread.cxx
+  high_rtread.cxx
+  high_turret.cxx
+  low_barrel.cxx
+  low_body.cxx
+  low_ltread.cxx
+  low_rtread.cxx
+  low_turret.cxx
+  medium_barrel.cxx
+  Generating Code...
+  Compiling...
+  medium_body.cxx
+  medium_ltread.cxx
+  medium_rtread.cxx
+  medium_turret.cxx
+  Generating Code...
+  geometry.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\./geometry_Win32_Release\geometry.lib

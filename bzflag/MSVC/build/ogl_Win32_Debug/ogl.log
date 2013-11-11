@@ -1,1 +1,28 @@
-﻿  ogl.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\bzflag-2.4.2\MSVC\build\./ogl_Win32_Debug\ogl.lib
+﻿Build started 11/11/2013 10:05:46 AM.
+     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\ogl.vcxproj" on node 5 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "./ogl_Win32_Debug\ogl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\win32 /I.\ /I../../src/other/glew/include/ /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./ogl_Win32_Debug\\" /Fd"./ogl_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\ogl\OpenGLGState.cxx ..\..\src\ogl\OpenGLLight.cxx ..\..\src\ogl\OpenGLMaterial.cxx ..\..\src\ogl\OpenGLTexture.cxx ..\..\src\ogl\OpenGLUtils.cxx ..\..\src\ogl\RenderNode.cxx
+         OpenGLGState.cxx
+         OpenGLLight.cxx
+         OpenGLMaterial.cxx
+         OpenGLTexture.cxx
+         OpenGLUtils.cxx
+         RenderNode.cxx
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./ogl_Win32_Debug\ogl.lib" /NOLOGO ./ogl_Win32_Debug\OpenGLGState.obj
+         ./ogl_Win32_Debug\OpenGLLight.obj
+         ./ogl_Win32_Debug\OpenGLMaterial.obj
+         ./ogl_Win32_Debug\OpenGLTexture.obj
+         ./ogl_Win32_Debug\OpenGLUtils.obj
+         ./ogl_Win32_Debug\RenderNode.obj
+         ogl.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\./ogl_Win32_Debug\ogl.lib
+       FinalizeBuildStatus:
+         Deleting file "./ogl_Win32_Debug\ogl.unsuccessfulbuild".
+         Touching "./ogl_Win32_Debug\ogl.lastbuildstate".
+     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\ogl.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.78

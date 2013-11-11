@@ -27,10 +27,11 @@ public:
 	float getScaledY(void) const;
 	void setX(int newX);
 	void setY(int newY);
-private:
+//private:
 	int x, y; // Profiling observation: integer coordinates, hence operator==,
 	          //  makes the search significantly faster (almost 10 folds than double)
 };
+
 inline int AStarNode::getX(void) const { return x; }
 inline int AStarNode::getY(void) const { return y; }
 inline float AStarNode::getScaledX(void) const { return x * SCALE; }

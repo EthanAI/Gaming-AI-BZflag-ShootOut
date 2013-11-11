@@ -1,1 +1,28 @@
-﻿  3D.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\bzflag-2.4.2\MSVC\build\./3D_Win32_Debug\3D.lib
+﻿Build started 11/11/2013 10:05:28 AM.
+     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\3D.vcxproj" on node 5 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "./3D_Win32_Debug\3D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../include /I./ /I../../src/other/glew/include/ /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./3D_Win32_Debug\\" /Fd"./3D_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\3d\BitmapFont.cxx ..\..\src\3d\FontManager.cxx ..\..\src\3d\ImageFont.cxx ..\..\src\3d\TextureFont.cxx ..\..\src\3d\TextureManager.cxx
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         TextureManager.cxx
+         TextureFont.cxx
+         ImageFont.cxx
+         FontManager.cxx
+         BitmapFont.cxx
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./3D_Win32_Debug\3D.lib" /NOLOGO /NODEFAULTLIB ./3D_Win32_Debug\BitmapFont.obj
+         ./3D_Win32_Debug\FontManager.obj
+         ./3D_Win32_Debug\ImageFont.obj
+         ./3D_Win32_Debug\TextureFont.obj
+         ./3D_Win32_Debug\TextureManager.obj
+         3D.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\./3D_Win32_Debug\3D.lib
+       FinalizeBuildStatus:
+         Deleting file "./3D_Win32_Debug\3D.unsuccessfulbuild".
+         Touching "./3D_Win32_Debug\3D.lastbuildstate".
+     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\3D.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:52.16

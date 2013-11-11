@@ -81,7 +81,7 @@ class RobotPlayer : public LocalPlayer {
      void		projectPosition(const Player *targ,const float t,float &x,float &y,float &z) const;
      void		getProjectedPosition(const Player *targ, float *projpos) const;
 
-	 int		RobotPlayer::computeCenterOfMass(float neighborhoodSize, float cm[3], bool includeSelf = false);
+	 int		RobotPlayer::computeCenterOfMass(float neighborhoodSize, float cm[3]);
 	 int		RobotPlayer::computeRepulsion(float neighborhoodSize, float repulse[3]);
 	 int		RobotPlayer::computeAlign(float neighborhoodSize, float avV[3], float* avAzimuth);
 	 void		RobotPlayer::findHomeBase(TeamColor teamColor, float location[3]);
@@ -108,11 +108,7 @@ class RobotPlayer : public LocalPlayer {
     bool		drivingForward;
     static std::vector<BzfRegion*>* obstacleList;
 	std::vector< std::vector< AStarNode > > paths; // planner result paths
-	static std::vector< std::vector< AStarNode > > teamPaths[CtfTeams]; // team planner result paths
-	AStarNode myGoalNode; // personal goal position for current planner result
-	static AStarNode teamGoalNode[CtfTeams]; // team goal position for current planner result
-	static int teamPathId[CtfTeams];
-	int myTeamPathId;
+	AStarNode pathGoalNode; // goal position for current planner result
 	float shotAngle; // azimuth of incoming shot
 	float targetdistance; // distance to target
 	float targetdir[3]; // direction to target

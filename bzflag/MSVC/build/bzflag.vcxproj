@@ -104,7 +104,7 @@
       <Optimization>Disabled</Optimization>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\include;..\..\win32;.\;../../src/other/curl/include;./curl;../../src/other/zlib/;../../src/other/glew/include/;../../src\yagsbpl;../../src\bzfs;../../src\yagsbpl\planners;../../src\BZFlagDecisionTree;../../src\bzflag;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\win32;.\;../../src/other/curl/include;./curl;../../src/other/zlib/;../../src/other/glew/include/;..\..\src\yagsbpl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_WINDOWS;WIN32;_DEBUG;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -112,7 +112,7 @@
       <PrecompiledHeaderOutputFile>$(OutDir)bzflag.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>$(OutDir)</AssemblerListingLocation>
       <ObjectFileName>$(OutDir)</ObjectFileName>
-      <ProgramDataBaseFileName>$(OutDir)</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(LocalDebuggerWorkingDirectory)</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <TreatWarningAsError>false</TreatWarningAsError>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -212,7 +212,7 @@ copy $(OutDir)*.exe ..\..\bin_$(Platform)\
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..\..\include;..\..\win32;.\;../../src/other/curl/include;./curl;../../src/other/zlib/;../../src/other/glew/include/;C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src;C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\yagsbpl;C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\src\other\regex;C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\win32;.\;../../src/other/curl/include;./curl;../../src/other/zlib/;../../src/other/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_WINDOWS;WIN32;NDEBUG;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -304,7 +304,6 @@ copy $(OutDir)*.exe ..\..\bin_$(Platform)\
     <ClCompile Include="..\..\src\bzflag\AStarNode.cpp" />
     <ClCompile Include="..\..\src\bzflag\AutoPilot.cxx" />
     <ClCompile Include="..\..\src\bzflag\dectree.cxx" />
-    <ClCompile Include="..\..\src\bzflag\RobotPlayer.cxx" />
     <ClCompile Include="..\..\src\common\BZDBLocal.cxx" />
     <ClCompile Include="..\..\src\bzflag\bzflag.cxx">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
@@ -762,6 +761,22 @@ copy $(OutDir)*.exe ..\..\bin_$(Platform)\
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\..\src\bzflag\RobotPlayer.cxx">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EnableFastChecks</BasicRuntimeChecks>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Disabled</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EnableFastChecks</BasicRuntimeChecks>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClCompile Include="..\..\src\bzflag\Roster.cxx" />
     <ClCompile Include="..\..\src\bzflag\ServerCommandKey.cxx" />
     <ClCompile Include="..\..\src\bzflag\SilenceDefaultKey.cxx" />
@@ -856,7 +871,6 @@ copy $(OutDir)*.exe ..\..\bin_$(Platform)\
     <ClCompile Include="..\..\src\bzflag\ServerStartMenu.cxx" />
     <ClCompile Include="..\..\src\bzflag\defaultBZDB.cxx" />
     <ClCompile Include="..\..\src\bzflag\clientConfig.cxx" />
-    <ClCompile Include="..\..\src\yagsbpl\yagsbpl_base.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\bzflag.rc">
@@ -916,7 +930,6 @@ copy $(OutDir)*.exe ..\..\bin_$(Platform)\
     <ClInclude Include="..\..\src\bzflag\MainWindow.h" />
     <ClInclude Include="..\..\src\bzflag\MenuDefaultKey.h" />
     <ClInclude Include="..\..\src\bzflag\motd.h" />
-    <ClInclude Include="..\..\src\bzflag\myNode.h" />
     <ClInclude Include="..\..\src\bzflag\NewVersionMenu.h" />
     <ClInclude Include="..\..\src\bzflag\OptionsMenu.h" />
     <ClInclude Include="..\..\src\bzflag\Plan.h" />
@@ -961,8 +974,6 @@ copy $(OutDir)*.exe ..\..\bin_$(Platform)\
     <ClInclude Include="..\..\src\bzflag\World.h" />
     <ClInclude Include="..\..\src\bzflag\WorldBuilder.h" />
     <ClInclude Include="..\..\src\bzflag\WorldPlayer.h" />
-    <ClInclude Include="..\..\src\yagsbpl\planners\A_star.h" />
-    <ClInclude Include="..\..\src\yagsbpl\yagsbpl_base.h" />
     <ClInclude Include="..\resource.h" />
   </ItemGroup>
   <ItemGroup>

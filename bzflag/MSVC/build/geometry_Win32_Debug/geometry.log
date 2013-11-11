@@ -1,1 +1,104 @@
-﻿  geometry.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\bzflag-2.4.2\MSVC\build\./geometry_Win32_Debug\geometry.lib
+﻿Build started 11/11/2013 10:06:01 AM.
+     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\geometry.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "./geometry_Win32_Debug\geometry.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\win32 /I.\ /I../../src/other/glew/include/ /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./geometry_Win32_Debug\\" /Fd"./geometry_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\geometry\AnimatedTreads.cxx ..\..\src\geometry\BillboardSceneNode.cxx ..\..\src\geometry\BoltSceneNode.cxx ..\..\src\geometry\EighthDBaseSceneNode.cxx ..\..\src\geometry\EighthDBoxSceneNode.cxx ..\..\src\geometry\EighthDimSceneNode.cxx ..\..\src\geometry\EighthDimShellNode.cxx ..\..\src\geometry\EighthDPyrSceneNode.cxx ..\..\src\geometry\FlagSceneNode.cxx ..\..\src\geometry\FlagWarpSceneNode.cxx ..\..\src\geometry\LaserSceneNode.cxx ..\..\src\geometry\MeshDrawMgr.cxx ..\..\src\geometry\MeshFragSceneNode.cxx ..\..\src\geometry\MeshPolySceneNode.cxx ..\..\src\geometry\MeshRenderNode.cxx ..\..\src\geometry\MeshSceneNode.cxx ..\..\src\geometry\OccluderSceneNode.cxx ..\..\src\geometry\PolyWallSceneNode.cxx ..\..\src\geometry\PTSceneNode.cxx ..\..\src\geometry\QuadWallSceneNode.cxx ..\..\src\geometry\SceneNode.cxx ..\..\src\geometry\ShellSceneNode.cxx ..\..\src\geometry\SphereSceneNode.cxx ..\..\src\geometry\TankGeometryMgr.cxx ..\..\src\geometry\TankSceneNode.cxx ..\..\src\geometry\TracerSceneNode.cxx ..\..\src\geometry\TriWallSceneNode.cxx ..\..\src\geometry\ViewFrustum.cxx ..\..\src\geometry\WallSceneNode.cxx ..\..\src\geometry\models\tank\high_barrel.cxx ..\..\src\geometry\models\tank\high_body.cxx ..\..\src\geometry\models\tank\high_ltread.cxx ..\..\src\geometry\models\tank\high_rtread.cxx ..\..\src\geometry\models\tank\high_turret.cxx ..\..\src\geometry\models\tank\low_barrel.cxx ..\..\src\geometry\models\tank\low_body.cxx ..\..\src\geometry\models\tank\low_ltread.cxx ..\..\src\geometry\models\tank\low_rtread.cxx ..\..\src\geometry\models\tank\low_turret.cxx ..\..\src\geometry\models\tank\medium_barrel.cxx ..\..\src\geometry\models\tank\medium_body.cxx ..\..\src\geometry\models\tank\medium_ltread.cxx ..\..\src\geometry\models\tank\medium_rtread.cxx ..\..\src\geometry\models\tank\medium_turret.cxx
+         AnimatedTreads.cxx
+         BillboardSceneNode.cxx
+         BoltSceneNode.cxx
+         EighthDBaseSceneNode.cxx
+         EighthDBoxSceneNode.cxx
+         EighthDimSceneNode.cxx
+         EighthDimShellNode.cxx
+         EighthDPyrSceneNode.cxx
+         FlagSceneNode.cxx
+         FlagWarpSceneNode.cxx
+         LaserSceneNode.cxx
+         MeshDrawMgr.cxx
+         MeshFragSceneNode.cxx
+         MeshPolySceneNode.cxx
+         MeshRenderNode.cxx
+         MeshSceneNode.cxx
+         OccluderSceneNode.cxx
+         PolyWallSceneNode.cxx
+         PTSceneNode.cxx
+         QuadWallSceneNode.cxx
+         SceneNode.cxx
+         ShellSceneNode.cxx
+         SphereSceneNode.cxx
+         TankGeometryMgr.cxx
+         TankSceneNode.cxx
+         TracerSceneNode.cxx
+         TriWallSceneNode.cxx
+         ViewFrustum.cxx
+         WallSceneNode.cxx
+         high_barrel.cxx
+         high_body.cxx
+         high_ltread.cxx
+         high_rtread.cxx
+         high_turret.cxx
+         low_barrel.cxx
+         low_body.cxx
+         low_ltread.cxx
+         low_rtread.cxx
+         low_turret.cxx
+         medium_barrel.cxx
+         medium_body.cxx
+         medium_ltread.cxx
+         medium_rtread.cxx
+         medium_turret.cxx
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./geometry_Win32_Debug\geometry.lib" /NOLOGO ./geometry_Win32_Debug\AnimatedTreads.obj
+         ./geometry_Win32_Debug\BillboardSceneNode.obj
+         ./geometry_Win32_Debug\BoltSceneNode.obj
+         ./geometry_Win32_Debug\EighthDBaseSceneNode.obj
+         ./geometry_Win32_Debug\EighthDBoxSceneNode.obj
+         ./geometry_Win32_Debug\EighthDimSceneNode.obj
+         ./geometry_Win32_Debug\EighthDimShellNode.obj
+         ./geometry_Win32_Debug\EighthDPyrSceneNode.obj
+         ./geometry_Win32_Debug\FlagSceneNode.obj
+         ./geometry_Win32_Debug\FlagWarpSceneNode.obj
+         ./geometry_Win32_Debug\LaserSceneNode.obj
+         ./geometry_Win32_Debug\MeshDrawMgr.obj
+         ./geometry_Win32_Debug\MeshFragSceneNode.obj
+         ./geometry_Win32_Debug\MeshPolySceneNode.obj
+         ./geometry_Win32_Debug\MeshRenderNode.obj
+         ./geometry_Win32_Debug\MeshSceneNode.obj
+         ./geometry_Win32_Debug\OccluderSceneNode.obj
+         ./geometry_Win32_Debug\PolyWallSceneNode.obj
+         ./geometry_Win32_Debug\PTSceneNode.obj
+         ./geometry_Win32_Debug\QuadWallSceneNode.obj
+         ./geometry_Win32_Debug\SceneNode.obj
+         ./geometry_Win32_Debug\ShellSceneNode.obj
+         ./geometry_Win32_Debug\SphereSceneNode.obj
+         ./geometry_Win32_Debug\TankGeometryMgr.obj
+         ./geometry_Win32_Debug\TankSceneNode.obj
+         ./geometry_Win32_Debug\TracerSceneNode.obj
+         ./geometry_Win32_Debug\TriWallSceneNode.obj
+         ./geometry_Win32_Debug\ViewFrustum.obj
+         ./geometry_Win32_Debug\WallSceneNode.obj
+         ./geometry_Win32_Debug\high_barrel.obj
+         ./geometry_Win32_Debug\high_body.obj
+         ./geometry_Win32_Debug\high_ltread.obj
+         ./geometry_Win32_Debug\high_rtread.obj
+         ./geometry_Win32_Debug\high_turret.obj
+         ./geometry_Win32_Debug\low_barrel.obj
+         ./geometry_Win32_Debug\low_body.obj
+         ./geometry_Win32_Debug\low_ltread.obj
+         ./geometry_Win32_Debug\low_rtread.obj
+         ./geometry_Win32_Debug\low_turret.obj
+         ./geometry_Win32_Debug\medium_barrel.obj
+         ./geometry_Win32_Debug\medium_body.obj
+         ./geometry_Win32_Debug\medium_ltread.obj
+         ./geometry_Win32_Debug\medium_rtread.obj
+         ./geometry_Win32_Debug\medium_turret.obj
+         geometry.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\./geometry_Win32_Debug\geometry.lib
+       FinalizeBuildStatus:
+         Deleting file "./geometry_Win32_Debug\geometry.unsuccessfulbuild".
+         Touching "./geometry_Win32_Debug\geometry.lastbuildstate".
+     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\geometry.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:58.66

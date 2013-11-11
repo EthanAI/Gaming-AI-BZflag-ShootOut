@@ -1,1 +1,62 @@
-﻿  game.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\bzflag-2.4.2\MSVC\build\./game_Win32_Debug\game.lib
+﻿Build started 11/11/2013 10:08:05 AM.
+     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\game.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "./game_Win32_Debug\game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../include/ /I../ /I./ /I../../src/other/curl/include /I./curl /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./game_Win32_Debug\\" /Fd"./game_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\game\BzMaterial.cxx ..\..\src\game\CacheManager.cxx ..\..\src\game\CollisionManager.cxx ..\..\src\game\CommandsStandard.cxx ..\..\src\game\DirectoryNames.cxx ..\..\src\game\DynamicColor.cxx ..\..\src\game\Frustum.cxx ..\..\src\game\Intersect.cxx ..\..\src\game\LagInfo.cxx ..\..\src\game\LinkManager.cxx ..\..\src\game\MeshTransform.cxx ..\..\src\game\NetHandler.cxx ..\..\src\game\PhysicsDriver.cxx ..\..\src\game\PlayerInfo.cxx ..\..\src\game\Ray.cxx ..\..\src\game\ServerItem.cxx ..\..\src\game\ServerList.cxx ..\..\src\game\ServerListCache.cxx ..\..\src\game\StartupInfo.cxx ..\..\src\game\TextureMatrix.cxx ..\..\src\game\VotingArbiter.cxx
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         VotingArbiter.cxx
+         TextureMatrix.cxx
+         StartupInfo.cxx
+         ServerListCache.cxx
+         ServerList.cxx
+         ServerItem.cxx
+         Ray.cxx
+         PlayerInfo.cxx
+         PhysicsDriver.cxx
+         NetHandler.cxx
+         MeshTransform.cxx
+         LinkManager.cxx
+         LagInfo.cxx
+         Intersect.cxx
+         Frustum.cxx
+         DynamicColor.cxx
+         DirectoryNames.cxx
+         CommandsStandard.cxx
+         CollisionManager.cxx
+         CacheManager.cxx
+         Generating Code...
+         Compiling...
+         BzMaterial.cxx
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./game_Win32_Debug\game.lib" /NOLOGO /NODEFAULTLIB ./game_Win32_Debug\BzMaterial.obj
+         ./game_Win32_Debug\CacheManager.obj
+         ./game_Win32_Debug\CollisionManager.obj
+         ./game_Win32_Debug\CommandsStandard.obj
+         ./game_Win32_Debug\DirectoryNames.obj
+         ./game_Win32_Debug\DynamicColor.obj
+         ./game_Win32_Debug\Frustum.obj
+         ./game_Win32_Debug\Intersect.obj
+         ./game_Win32_Debug\LagInfo.obj
+         ./game_Win32_Debug\LinkManager.obj
+         ./game_Win32_Debug\MeshTransform.obj
+         ./game_Win32_Debug\NetHandler.obj
+         ./game_Win32_Debug\PhysicsDriver.obj
+         ./game_Win32_Debug\PlayerInfo.obj
+         ./game_Win32_Debug\Ray.obj
+         ./game_Win32_Debug\ServerItem.obj
+         ./game_Win32_Debug\ServerList.obj
+         ./game_Win32_Debug\ServerListCache.obj
+         ./game_Win32_Debug\StartupInfo.obj
+         ./game_Win32_Debug\TextureMatrix.obj
+         ./game_Win32_Debug\VotingArbiter.obj
+         game.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\./game_Win32_Debug\game.lib
+       FinalizeBuildStatus:
+         Deleting file "./game_Win32_Debug\game.unsuccessfulbuild".
+         Touching "./game_Win32_Debug\game.lastbuildstate".
+     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\game.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:57.32

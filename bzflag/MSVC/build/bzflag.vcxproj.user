@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommand>C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A3\bzflag-2.4.2\bin_Win32\bzflag.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>..\..\bin_Win32\bzflag.exe</LocalDebuggerCommand>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerWorkingDirectory>C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A3\bzflag-2.4.2\bin_Win32</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>..\..\bin_Win32</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>-solo 4</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-solo  6</LocalDebuggerCommandArguments>
   </PropertyGroup>
 </Project>

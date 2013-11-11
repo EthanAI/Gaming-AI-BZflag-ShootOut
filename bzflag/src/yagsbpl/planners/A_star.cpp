@@ -63,7 +63,7 @@ void A_star_planner<NodeType,CostType>::init( GenericSearchGraphDescriptor<NodeT
 			{
 				//printf("ERROR (A_star): At least one of the seed nodes is not accessible!" );
 				//exit(1);
-				//controlPanel->addMessage("ERROR (A_star): At least one of the seed nodes is not accessible!");
+				controlPanel->addMessage("ERROR (A_star): At least one of the seed nodes is not accessible!");
 			}
 			else
 				thisGraphNode->plannerVars.accessible = true;

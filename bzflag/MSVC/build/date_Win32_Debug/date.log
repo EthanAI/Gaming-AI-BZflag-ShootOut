@@ -1,1 +1,18 @@
-﻿  date.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\bzflag-2.4.2\MSVC\build\./date_Win32_Debug\date.lib
+﻿Build started 11/11/2013 10:06:21 AM.
+     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\date.vcxproj" on node 4 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "./date_Win32_Debug\date.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I.\..\..\include /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./date_Win32_Debug\\" /Fd"./date_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\date\buildDate.cxx
+         buildDate.cxx
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./date_Win32_Debug\date.lib" /NOLOGO ./date_Win32_Debug\buildDate.obj
+         date.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\./date_Win32_Debug\date.lib
+       FinalizeBuildStatus:
+         Deleting file "./date_Win32_Debug\date.unsuccessfulbuild".
+         Touching "./date_Win32_Debug\date.lastbuildstate".
+     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\date.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.04

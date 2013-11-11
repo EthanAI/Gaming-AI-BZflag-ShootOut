@@ -285,41 +285,55 @@ void			RobotPlayer::followPath(float dt)
 		getId(), pathIndex, (int)paths[0].size());
 	controlPanel->addMessage(buffer);
 #endif
-	if (dt > 0.0) {
+    if (dt > 0.0  && pathIndex >= 0) {
 		float distance;
-		float v[3];
-		float slotPos[3], pathV[3];
-		getSlotLocation(dt, slotPos);
-		pathV[0] = slotPos[0] - position[0];
-		pathV[1] = slotPos[1] - position[1];
-		distance = hypotf(pathV[0], pathV[1]);
+      float v[2];
+      float endPoint[3];
+	  endPoint[0] = paths[0][pathIndex].getScaledX();
+	  endPoint[1] = paths[0][pathIndex].getScaledY();
 #ifdef TRACE2
-		if (getId() == 2) {
 			char buffer[128];
 			sprintf (buffer, "Robot(%d) at (%f, %f) heading toward (%f, %f)",
-				getId(),position[0], position[1], slotPos[0], slotPos[1]);
+		  getId(),position[0], position[1], endPoint[0], endPoint[1]);
 			controlPanel->addMessage(buffer);
-		}
 #endif
-		float separationV[3];
-		int numSeparationNeighbors = computeRepulsion(BZDBCache::tankRadius * 5.0f, separationV);
-		v[0] = SeparationW * separationV[0] + PathW * pathV[0];
-		v[1] = SeparationW * separationV[1] + PathW * pathV[1];
-		float weightSum = SeparationW + PathW;
+      // find how long it will take to get to next path segment
+	  float path[3];
+      path[0] = endPoint[0] - position[0];
+      path[1] = endPoint[1] - position[1];
+      distance = hypotf(path[0], path[1]);
+      float tankRadius = BZDBCache::tankRadius;
+	  // find how long it will take to get to next path segment
+	  if (distance <= dt * tankSpeed + BZDBCache::tankRadius)
+		  pathIndex--;
+
+	  float cohesion[3];
+	  float cohesionV[2], separationV[3];
+	  int numCohesionNeighbors = computeCenterOfMass(BZDBCache::worldSize, cohesion);
+	  // uncomment out one of the following 2 code sections to get either
+	  // lines 1-7: repulsion from center of mass of neighbors
+	  // line 8: inverse square law repulsion from each neighbor
+	  float separation[3];
+	  int numSeparationNeighbors = computeCenterOfMass(BZDBCache::tankRadius * 5.0f, separation);
+	  if (numSeparationNeighbors) {
+		  separationV[0] = position[0] - separation[0];
+		  separationV[1] = position[1] - separation[1];
+	  } else
+		  separationV[0] = separationV[1] = 0;
+	  //int numSeparationNeighbors = computeRepulsion(BZDBCache::tankRadius * 5.0f, separationV);
+	  float alignAzimuth;
+	  float align[3] = {0.0f, 0.0f, 0.0f};
+	  int numAlignNeighbors = computeAlign(BZDBCache::tankRadius * 15.0f, align, &alignAzimuth);
+	  if (numCohesionNeighbors) {
+		  cohesionV[0] = cohesion[0] - position[0];
+		  cohesionV[1] = cohesion[1] - position[1];
+	  } else
+		  cohesionV[0] = cohesionV[1] = 0;
+	  v[0] = CohesionW * cohesionV[0] + SeparationW * separationV[0] + AlignW * align[0] + PathW * path[0];
+	  v[1] = CohesionW * cohesionV[1] + SeparationW * separationV[1] + AlignW * align[1] + PathW * path[1];
+	  float weightSum = CohesionW + SeparationW + AlignW + PathW;
 		v[0] /= weightSum;
 		v[1] /= weightSum;
-#ifdef TRACE4
-		char buffer[128];
-		if (getId() == 2) {
-			sprintf (buffer, "R%d-%d at (%f, %f) to (%f, %f) by (%f, %f)",
-				myteam, getId(), position[0], position[1], slotPos[0], slotPos[1],
-				v[0], v[1]);
-			controlPanel->addMessage(buffer);
-		}
-		//sprintf (buffer, "     c(%f, %f), s(%f, %f), a(%f, %f), p(%f, %f)",
-		//  myteam, getId(), cohesionV[0], cohesionV[1], separationV[0], separationV[1], align[0], align[1], path[0], path[1]);
-		//controlPanel->addMessage(buffer);
-#endif
 
 		float segmentAzimuth = atan2f(v[1], v[0]);
 		float azimuthDiff = segmentAzimuth - azimuth;
@@ -332,12 +346,12 @@ void			RobotPlayer::followPath(float dt)
 			else
 				drivingForward = fabs(azimuthDiff) < M_PI/2*0.3 ? true : false;
 			float speed = drivingForward ? 1.0f : -1.0f;
-			if (distance <= dt * tankSpeed) {
-				// set desired speed
-				setDesiredSpeed(speed * distance / dt / tankSpeed);
-			} else {
-				setDesiredSpeed(speed);
-			}
+		  //if (distance <= dt * tankSpeed) {
+			 // // set desired speed
+			 // setDesiredSpeed(speed * distance / dt / tankSpeed);
+		  //} else {
+			 // setDesiredSpeed(speed);
+		  //}
 			setDesiredSpeed(drivingForward ? 1.0f : -1.0f);
 			// set desired turn speed
 			if (azimuthDiff >= dt * tankAngVel) {
@@ -351,25 +365,19 @@ void			RobotPlayer::followPath(float dt)
 			drivingForward = true;
 			// tank doesn't turn while moving forward
 			setDesiredAngVel(0.0f);
-			if (distance <= dt * tankSpeed) {
-				// set desired speed
-				setDesiredSpeed(distance / dt / tankSpeed);
-			} else {
-				setDesiredSpeed(1.0f);
-			}
+		  //if (distance <= dt * tankSpeed) {
+			 // // set desired speed
+			 // setDesiredSpeed(distance / dt / tankSpeed);
+		  //} else {
+			 // setDesiredSpeed(1.0f);
+		  //}
 		}
 #ifdef TRACE3
-		char buffer[128];
 		sprintf (buffer, "bot(%d) at (%f, %f) -> (%f, %f), d = %f, dt = %f, v = (%f, %f)",
 			getId(),position[0], position[1], endPoint[0], endPoint[1], distance, dt*tankSpeed, v[0], v[1]);
 		controlPanel->addMessage(buffer);
 #endif
 	}
-#ifdef TRACE5
-	char buffer[128];
-	sprintf (buffer, "R%d-%d following A* path", getTeam(), getId());
-	controlPanel->addMessage(buffer);
-#endif
 }
 
 /*
@@ -631,7 +639,7 @@ void			RobotPlayer::setTarget(const Player* _target)
 	  pathGoalNode.setY(paths[0][0].getY());
 	  pathIndex = paths[0].size()-2; // last index is start node
   }
-#ifdef TRACE3
+#ifdef TRACE2
   char buffer[128];
   sprintf (buffer, "\nNumber of paths: %d\nPath coordinates: \n[ ", paths.size());
   controlPanel->addMessage(buffer);
@@ -803,7 +811,6 @@ int		RobotPlayer::computeCenterOfMass(float neighborhoodSize, float cm[3])
 #endif
 		if (p && p->getTeam() == myTeam && p->getId() != getId()) {
 			pos = p->getPosition();
-			if (pos[0] == 0.0f && pos[1] == 0.0f) return -1; // tanks not yet added
 			double deltax = pos[0] - mypos[0];
 			double deltay = pos[1] - mypos[1];
 			distance = hypotf(deltax,deltay);
@@ -858,7 +865,7 @@ int		RobotPlayer::computeRepulsion(float neighborhoodSize, float repulse[3])
 	{
 		Player* p = NULL;
 		const float* pos; // p's position
-		float distance = 0; // distance from p to this robot
+		double distance = 0; // distance from p to this robot
 		if (i < World::getWorld()->getCurMaxPlayers())
 			p = World::getWorld()->getPlayer(i);
 		else
@@ -871,8 +878,8 @@ int		RobotPlayer::computeRepulsion(float neighborhoodSize, float repulse[3])
 #endif
 		if (p && p->getTeam() == myTeam && p->getId() != getId()) {
 			pos = p->getPosition();
-			float deltax = pos[0] - mypos[0];
-			float deltay = pos[1] - mypos[1];
+			double deltax = pos[0] - mypos[0];
+			double deltay = pos[1] - mypos[1];
 			distance = hypotf(deltax,deltay);
 #ifdef TRACE
 			sprintf (buffer, "getPlayer(%d), id=%d has location (%f, %f, %f)",
@@ -884,7 +891,7 @@ int		RobotPlayer::computeRepulsion(float neighborhoodSize, float repulse[3])
 #endif
 			if (distance < neighborhoodSize) {
 				numTeammates++;
-				float dd = distance * distance;
+				double dd = distance * distance;
 				repulse[0] += pos[0]/dd;
 				repulse[1] += pos[1]/dd;
 				repulse[2] += pos[2]/dd;

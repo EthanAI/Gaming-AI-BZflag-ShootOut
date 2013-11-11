@@ -1,1 +1,28 @@
-﻿  regex.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\bzflag-2.4.2\MSVC\build\./regex_Win32_Debug\regex.lib
+﻿Build started 11/11/2013 10:05:28 AM.
+     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\regex.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "./regex_Win32_Debug\regex.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /I../ /I../../src/other/regex /I../../include /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./regex_Win32_Debug\\" /Fd"./regex_Win32_Debug\vc100.pdb" /FR"./regex_Win32_Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\src\other\regex\regcomp.c ..\..\src\other\regex\regerror.c ..\..\src\other\regex\regexec.c ..\..\src\other\regex\regfree.c
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         regfree.c
+         regexec.c
+         regerror.c
+         regcomp.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./regex_Win32_Debug\regex.lib" /NOLOGO ./regex_Win32_Debug\regcomp.obj
+         ./regex_Win32_Debug\regerror.obj
+         ./regex_Win32_Debug\regexec.obj
+         ./regex_Win32_Debug\regfree.obj
+         regex.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\./regex_Win32_Debug\regex.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"./regex_Win32_Debug\regex.bsc" ./regex_Win32_Debug\regcomp.sbr ./regex_Win32_Debug\regerror.sbr ./regex_Win32_Debug\regexec.sbr ./regex_Win32_Debug\regfree.sbr
+       FinalizeBuildStatus:
+         Deleting file "./regex_Win32_Debug\regex.unsuccessfulbuild".
+         Touching "./regex_Win32_Debug\regex.lastbuildstate".
+     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\regex.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.89

@@ -1,0 +1,4 @@
+
+---------- CORGI.LOG
+00000070	1.27311480	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\scene.vcxproj' not up to date because build input 'C:\ETHAN\DROPBOX\COMPUTER SCIENCE\ICS 462 AI FOR GAMES\SOFTWARE\A2\BZFLAG-2.4.2\MSVC\INCLUDE\BZFGL.H' is missing. 	
+00000172	1.33173287	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\libcurl.vcxproj' not up to date because build input 'C:\ETHAN\DROPBOX\COMPUTER SCIENCE\ICS 462 AI FOR GAMES\SOFTWARE\A2\BZFLAG-2.4.2\SRC\OTHER\CURL\INCLUDE\CURL\CURLBUILDWIN32.H' is missing. 	

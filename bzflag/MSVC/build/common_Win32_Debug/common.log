@@ -1,89 +1,37 @@
-﻿Build started 11/11/2013 10:08:05 AM.
-     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\common.vcxproj" on node 5 (rebuild target(s)).
-     1>InitializeBuildStatus:
-         Creating "./common_Win32_Debug\common.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\win32 /I.\ /I../../src/other/curl/include /I./curl /I../../src/other/zlib/ /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC_NET /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./common_Win32_Debug\\" /Fd"./common_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\common\AccessList.cxx ..\..\src\common\AutoCompleter.cxx ..\..\src\common\Bundle.cxx ..\..\src\common\BundleMgr.cxx ..\..\src\common\bz_Locale.cxx ..\..\src\common\BZDBCache.cxx ..\..\src\common\bzfio.cxx ..\..\src\common\bzglob.cxx ..\..\src\common\BzPNG.cxx ..\..\src\common\CommandManager.cxx ..\..\src\common\ConfigFileManager.cxx ..\..\src\common\Country.cxx ..\..\src\common\cURLManager.cxx ..\..\src\common\ErrorHandler.cxx ..\..\src\common\FileManager.cxx ..\..\src\common\Flag.cxx ..\..\src\common\GameTime.cxx ..\..\src\common\global.cxx ..\..\src\common\KeyManager.cxx ..\..\src\common\Language.cxx ..\..\src\common\md5.cxx ..\..\src\common\messages.cxx ..\..\src\common\OSFile.cxx ..\..\src\common\ParseColor.cxx ..\..\src\common\PlayerState.cxx ..\..\src\common\PositionTracker.cxx ..\..\src\common\ShotUpdate.cxx ..\..\src\common\StateDatabase.cxx ..\..\src\common\Team.cxx ..\..\src\common\TextChunkManager.cxx ..\..\src\common\TextUtils.cxx ..\..\src\common\TimeBomb.cxx ..\..\src\common\TimeKeeper.cxx ..\..\src\common\VotingBooth.cxx ..\..\src\common\WordFilter.cxx
-         AccessList.cxx
-         AutoCompleter.cxx
-         Bundle.cxx
-         BundleMgr.cxx
-         bz_Locale.cxx
-         BZDBCache.cxx
-         bzfio.cxx
-         bzglob.cxx
-         BzPNG.cxx
-         CommandManager.cxx
-         ConfigFileManager.cxx
-         Country.cxx
-         cURLManager.cxx
-         ErrorHandler.cxx
-         FileManager.cxx
-         Flag.cxx
-         GameTime.cxx
-         global.cxx
-         KeyManager.cxx
-         Language.cxx
-         md5.cxx
-         messages.cxx
-         OSFile.cxx
-         ParseColor.cxx
-         PlayerState.cxx
-         PositionTracker.cxx
-         ShotUpdate.cxx
-         StateDatabase.cxx
-         Team.cxx
-         TextChunkManager.cxx
-         TextUtils.cxx
-         TimeBomb.cxx
-         TimeKeeper.cxx
-         VotingBooth.cxx
-         WordFilter.cxx
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\win32 /I.\ /I../../src/other/curl/include /I./curl /I../../src/other/zlib/ /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC_NET /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./common_Win32_Debug\\" /Fd"./common_Win32_Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\common\bzsignal.c
-         bzsignal.c
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./common_Win32_Debug\common.lib" /NOLOGO ./common_Win32_Debug\AccessList.obj
-         ./common_Win32_Debug\AutoCompleter.obj
-         ./common_Win32_Debug\Bundle.obj
-         ./common_Win32_Debug\BundleMgr.obj
-         ./common_Win32_Debug\bz_Locale.obj
-         ./common_Win32_Debug\BZDBCache.obj
-         ./common_Win32_Debug\bzfio.obj
-         ./common_Win32_Debug\bzglob.obj
-         ./common_Win32_Debug\BzPNG.obj
-         ./common_Win32_Debug\bzsignal.obj
-         ./common_Win32_Debug\CommandManager.obj
-         ./common_Win32_Debug\ConfigFileManager.obj
-         ./common_Win32_Debug\Country.obj
-         ./common_Win32_Debug\cURLManager.obj
-         ./common_Win32_Debug\ErrorHandler.obj
-         ./common_Win32_Debug\FileManager.obj
-         ./common_Win32_Debug\Flag.obj
-         ./common_Win32_Debug\GameTime.obj
-         ./common_Win32_Debug\global.obj
-         ./common_Win32_Debug\KeyManager.obj
-         ./common_Win32_Debug\Language.obj
-         ./common_Win32_Debug\md5.obj
-         ./common_Win32_Debug\messages.obj
-         ./common_Win32_Debug\OSFile.obj
-         ./common_Win32_Debug\ParseColor.obj
-         ./common_Win32_Debug\PlayerState.obj
-         ./common_Win32_Debug\PositionTracker.obj
-         ./common_Win32_Debug\ShotUpdate.obj
-         ./common_Win32_Debug\StateDatabase.obj
-         ./common_Win32_Debug\Team.obj
-         ./common_Win32_Debug\TextChunkManager.obj
-         ./common_Win32_Debug\TextUtils.obj
-         ./common_Win32_Debug\TimeBomb.obj
-         ./common_Win32_Debug\TimeKeeper.obj
-         ./common_Win32_Debug\VotingBooth.obj
-         ./common_Win32_Debug\WordFilter.obj
-         common.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\./common_Win32_Debug\common.lib
-       FinalizeBuildStatus:
-         Deleting file "./common_Win32_Debug\common.unsuccessfulbuild".
-         Touching "./common_Win32_Debug\common.lastbuildstate".
-     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\common.vcxproj" (rebuild target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:26.96
+﻿  AccessList.cxx
+  AutoCompleter.cxx
+  Bundle.cxx
+  BundleMgr.cxx
+  bz_Locale.cxx
+  BZDBCache.cxx
+  bzfio.cxx
+  bzglob.cxx
+  BzPNG.cxx
+  CommandManager.cxx
+  ConfigFileManager.cxx
+  Country.cxx
+  cURLManager.cxx
+  ErrorHandler.cxx
+  FileManager.cxx
+  Flag.cxx
+  GameTime.cxx
+  global.cxx
+  KeyManager.cxx
+  Language.cxx
+  md5.cxx
+  messages.cxx
+  OSFile.cxx
+  ParseColor.cxx
+  PlayerState.cxx
+  PositionTracker.cxx
+  ShotUpdate.cxx
+  StateDatabase.cxx
+  Team.cxx
+  TextChunkManager.cxx
+  TextUtils.cxx
+  TimeBomb.cxx
+  TimeKeeper.cxx
+  VotingBooth.cxx
+  WordFilter.cxx
+  bzsignal.c
+  common.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./common_Win32_Debug\common.lib

@@ -1,0 +1,300 @@
+00000001	0.00000000	[18820] devenv.exe Warning: 0 : 	
+00000002	0.00001428	[18820] Attempting to get tool for file of type 'ClInclude', resulted in rule name of '', and no tool provider responded. Going with Custom Build Tool 	
+00000003	0.00018384	[18820] devenv.exe Warning: 0 : 	
+00000004	0.00023605	[18820] Unable to find item <CustomBuild Include='..\..\src\other\zlib\inftrees.h' /> in manifest. 	
+00000005	0.00047522	[18820] devenv.exe Warning: 0 : 	
+00000006	0.00052475	[18820] Attempting to get tool for file of type 'ClInclude', resulted in rule name of '', and no tool provider responded. Going with Custom Build Tool 	
+00000007	0.00065593	[18820] devenv.exe Warning: 0 : 	
+00000008	0.00070502	[18820] Unable to find item <CustomBuild Include='..\..\src\other\zlib\inftrees.h' /> in manifest. 	
+00000009	1.23850751	[18820] devenv.exe Information: 0 : 	
+00000010	1.23854625	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ares.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000011	1.23866045	[18820] devenv.exe Information: 0 : 	
+00000012	1.23867524	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ares.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000013	1.23877966	[18820] devenv.exe Information: 0 : 	
+00000014	1.23882115	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ares.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000015	1.23887694	[18820] devenv.exe Information: 0 : 	
+00000016	1.23891842	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ares.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000017	1.23897421	[18820] devenv.exe Information: 0 : 	
+00000018	1.23901618	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ares.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000019	1.23906970	[18820] devenv.exe Information: 0 : 	
+00000020	1.23911250	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ares.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000021	1.24729335	[18820] devenv.exe Information: 0 : 	
+00000022	1.24730682	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\regex.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000023	1.24741650	[18820] devenv.exe Information: 0 : 	
+00000024	1.24744868	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\regex.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000025	1.24749327	[18820] devenv.exe Information: 0 : 	
+00000026	1.24750316	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\regex.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000027	1.24756241	[18820] devenv.exe Information: 0 : 	
+00000028	1.24757266	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\regex.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000029	1.24763119	[18820] devenv.exe Information: 0 : 	
+00000030	1.24766374	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\regex.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000031	1.24770796	[18820] devenv.exe Information: 0 : 	
+00000032	1.24773824	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\regex.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000033	1.25192285	[18820] devenv.exe Information: 0 : 	
+00000034	1.25198221	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\zlib.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000035	1.25211608	[18820] devenv.exe Information: 0 : 	
+00000036	1.25218832	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\zlib.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000037	1.25224543	[18820] devenv.exe Information: 0 : 	
+00000038	1.25230169	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\zlib.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000039	1.25234854	[18820] devenv.exe Information: 0 : 	
+00000040	1.25236547	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\zlib.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000041	1.25246680	[18820] devenv.exe Information: 0 : 	
+00000042	1.25250471	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\zlib.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000043	1.25257921	[18820] devenv.exe Information: 0 : 	
+00000044	1.25258684	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\zlib.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000045	1.25531268	[18820] devenv.exe Information: 0 : 	
+00000046	1.25532973	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\3D.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000047	1.25549340	[18820] devenv.exe Information: 0 : 	
+00000048	1.25552559	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\3D.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000049	1.25556755	[18820] devenv.exe Information: 0 : 	
+00000050	1.25559914	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\3D.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000051	1.25563622	[18820] devenv.exe Information: 0 : 	
+00000052	1.25564599	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\3D.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000053	1.25570142	[18820] devenv.exe Information: 0 : 	
+00000054	1.25571167	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\3D.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000055	1.25577009	[18820] devenv.exe Information: 0 : 	
+00000056	1.25580227	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\3D.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000057	1.27225852	[18820] devenv.exe Information: 0 : 	
+00000058	1.27228081	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\scene.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000059	1.27240443	[18820] devenv.exe Information: 0 : 	
+00000060	1.27245402	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\scene.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000061	1.27253783	[18820] devenv.exe Information: 0 : 	
+00000062	1.27258742	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\scene.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000063	1.27265036	[18820] devenv.exe Information: 0 : 	
+00000064	1.27269578	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\scene.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000065	1.27275074	[18820] devenv.exe Information: 0 : 	
+00000066	1.27276683	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\scene.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000067	1.27283370	[18820] devenv.exe Information: 0 : 	
+00000068	1.27287519	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\scene.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000069	1.27309740	[18820] devenv.exe Information: 0 : 	
+00000070	1.27311480	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\scene.vcxproj' not up to date because build input 'C:\ETHAN\DROPBOX\COMPUTER SCIENCE\ICS 462 AI FOR GAMES\SOFTWARE\A2\BZFLAG-2.4.2\MSVC\INCLUDE\BZFGL.H' is missing. 	
+00000071	1.27342808	[18820] devenv.exe Information: 0 : 	
+00000072	1.27343524	[18820] IVCConfigurationImpl.StartBuild called.  This should mean the Solution Build Manager has started a build already. 	
+00000073	1.27373993	[18820] devenv.exe Information: 0 : 	
+00000074	1.27374983	[18820] VCConfigBuildJob.Start called. 	
+00000075	1.27430844	[18820] devenv.exe Information: 0 : 	
+00000076	1.27431822	[18820] Entering BuildProjectBase.StartAsyncBuild. 	
+00000077	1.27444851	[18820] devenv.exe Information: 0 : 	
+00000078	1.27445841	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000079	1.27453601	[18820] devenv.exe Information: 0 : 	
+00000080	1.27454317	[18820] BuildProjectBase.BeforePendBuildRequest: SolutionBuildManagerIsPresent == True, designTimeBuild == False 	
+00000081	1.27460289	[18820] devenv.exe Information: 0 : 	
+00000082	1.27461052	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000083	1.27466273	[18820] devenv.exe Information: 0 : 	
+00000084	1.27468956	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000085	1.27473950	[18820] devenv.exe Information: 0 : 	
+00000086	1.27476537	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000087	1.27481663	[18820] devenv.exe Information: 0 : 	
+00000088	1.27484262	[18820] BuildProjectBase.StartAsyncBuild pending build request for targets: build, ... 	
+00000089	1.27491260	[18820] devenv.exe Information: 0 : 	
+00000090	1.27493846	[18820] BuildProjectBase.AfterPendBuildRequest called. 	
+00000091	1.27498043	[18820] devenv.exe Information: 0 : 	
+00000092	1.27500594	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000093	1.27505183	[18820] devenv.exe Information: 0 : 	
+00000094	1.27508759	[18820] BuildProjectBase.AfterPendBuildRequest: registering loggers with mux logger 	
+00000095	1.27511883	[18820] devenv.exe Information: 0 : 	
+00000096	1.27514422	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000097	1.27523077	[18820] devenv.exe Information: 0 : 	
+00000098	1.27525616	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000099	1.27859962	[18820] devenv.exe Information: 0 : 	
+00000100	1.27862918	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ogl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000101	1.27871430	[18820] devenv.exe Information: 0 : 	
+00000102	1.27874470	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ogl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000103	1.27882326	[18820] devenv.exe Information: 0 : 	
+00000104	1.27885175	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ogl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000105	1.27889240	[18820] devenv.exe Information: 0 : 	
+00000106	1.27891874	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ogl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000107	1.27895927	[18820] devenv.exe Information: 0 : 	
+00000108	1.27898562	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ogl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000109	1.27902400	[18820] devenv.exe Information: 0 : 	
+00000110	1.27905083	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\ogl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000111	1.28982282	[18820] devenv.exe Information: 0 : 	
+00000112	1.28985322	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\obstacle.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000113	1.28994370	[18820] devenv.exe Information: 0 : 	
+00000114	1.28997231	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\obstacle.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000115	1.29001832	[18820] devenv.exe Information: 0 : 	
+00000116	1.29004681	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\obstacle.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000117	1.29008698	[18820] devenv.exe Information: 0 : 	
+00000118	1.29011381	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\obstacle.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000119	1.29015434	[18820] devenv.exe Information: 0 : 	
+00000120	1.29018199	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\obstacle.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000121	1.29022038	[18820] devenv.exe Information: 0 : 	
+00000122	1.29024673	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\obstacle.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000123	1.29938698	[18820] devenv.exe Information: 0 : 	
+00000124	1.29941821	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\geometry.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000125	1.29950249	[18820] devenv.exe Information: 0 : 	
+00000126	1.29953110	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\geometry.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000127	1.29957747	[18820] devenv.exe Information: 0 : 	
+00000128	1.29964221	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\geometry.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000129	1.29969347	[18820] devenv.exe Information: 0 : 	
+00000130	1.29971397	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\geometry.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000131	1.29980242	[18820] devenv.exe Information: 0 : 	
+00000132	1.29985142	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\geometry.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000133	1.29991710	[18820] devenv.exe Information: 0 : 	
+00000134	1.29996216	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\geometry.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000135	1.30472946	[18820] devenv.exe Information: 0 : 	
+00000136	1.30477715	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\date.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000137	1.30489814	[18820] devenv.exe Information: 0 : 	
+00000138	1.30494678	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\date.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000139	1.30501902	[18820] devenv.exe Information: 0 : 	
+00000140	1.30506408	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\date.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000141	1.30512977	[18820] devenv.exe Information: 0 : 	
+00000142	1.30517697	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\date.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000143	1.30524266	[18820] devenv.exe Information: 0 : 	
+00000144	1.30528629	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\date.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000145	1.30534923	[18820] devenv.exe Information: 0 : 	
+00000146	1.30539203	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\date.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000147	1.30993092	[18820] devenv.exe Information: 0 : 	
+00000148	1.30997920	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\platform.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000149	1.31010056	[18820] devenv.exe Information: 0 : 	
+00000150	1.31014740	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\platform.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000151	1.31022239	[18820] devenv.exe Information: 0 : 	
+00000152	1.31026745	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\platform.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000153	1.31033123	[18820] devenv.exe Information: 0 : 	
+00000154	1.31037533	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\platform.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000155	1.31043780	[18820] devenv.exe Information: 0 : 	
+00000156	1.31048071	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\platform.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000157	1.31054270	[18820] devenv.exe Information: 0 : 	
+00000158	1.31058872	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\platform.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000159	1.32893074	[18820] devenv.exe Information: 0 : 	
+00000160	1.32896328	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\libcurl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000161	1.32908642	[18820] devenv.exe Information: 0 : 	
+00000162	1.32911539	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\libcurl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000163	1.32916367	[18820] devenv.exe Information: 0 : 	
+00000164	1.32919133	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\libcurl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000165	1.32923102	[18820] devenv.exe Information: 0 : 	
+00000166	1.32925820	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\libcurl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000167	1.32929659	[18820] devenv.exe Information: 0 : 	
+00000168	1.32932341	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\libcurl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000169	1.32936180	[18820] devenv.exe Information: 0 : 	
+00000170	1.32938898	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\libcurl.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000171	1.33170390	[18820] devenv.exe Information: 0 : 	
+00000172	1.33173287	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\libcurl.vcxproj' not up to date because build input 'C:\ETHAN\DROPBOX\COMPUTER SCIENCE\ICS 462 AI FOR GAMES\SOFTWARE\A2\BZFLAG-2.4.2\SRC\OTHER\CURL\INCLUDE\CURL\CURLBUILDWIN32.H' is missing. 	
+00000173	1.33202028	[18820] devenv.exe Information: 0 : 	
+00000174	1.33204794	[18820] IVCConfigurationImpl.StartBuild called.  This should mean the Solution Build Manager has started a build already. 	
+00000175	1.33233440	[18820] devenv.exe Information: 0 : 	
+00000176	1.33236122	[18820] VCConfigBuildJob.Start called. 	
+00000177	1.33291447	[18820] devenv.exe Information: 0 : 	
+00000178	1.33294213	[18820] Entering BuildProjectBase.StartAsyncBuild. 	
+00000179	1.33307111	[18820] devenv.exe Information: 0 : 	
+00000180	1.33309519	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000181	1.33315861	[18820] devenv.exe Information: 0 : 	
+00000182	1.33318937	[18820] BuildProjectBase.BeforePendBuildRequest: SolutionBuildManagerIsPresent == True, designTimeBuild == False 	
+00000183	1.33323264	[18820] devenv.exe Information: 0 : 	
+00000184	1.33325982	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000185	1.33331168	[18820] devenv.exe Information: 0 : 	
+00000186	1.33333886	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000187	1.33339107	[18820] devenv.exe Information: 0 : 	
+00000188	1.33341873	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000189	1.33347225	[18820] devenv.exe Information: 0 : 	
+00000190	1.33350039	[18820] BuildProjectBase.StartAsyncBuild pending build request for targets: build, ... 	
+00000191	1.33357394	[18820] devenv.exe Information: 0 : 	
+00000192	1.33360171	[18820] BuildProjectBase.AfterPendBuildRequest called. 	
+00000193	1.33364451	[18820] devenv.exe Information: 0 : 	
+00000194	1.33367169	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000195	1.33371770	[18820] devenv.exe Information: 0 : 	
+00000196	1.33374536	[18820] BuildProjectBase.AfterPendBuildRequest: registering loggers with mux logger 	
+00000197	1.33378637	[18820] devenv.exe Information: 0 : 	
+00000198	1.33381319	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000199	1.33389974	[18820] devenv.exe Information: 0 : 	
+00000200	1.33392787	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000201	1.33862197	[18820] devenv.exe Information: 0 : 	
+00000202	1.33865368	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\net.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000203	1.34110916	[18820] devenv.exe Information: 0 : 	
+00000204	1.34114313	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\net.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000205	1.34145093	[18820] devenv.exe Information: 0 : 	
+00000206	1.34153080	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\net.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000207	1.34156215	[18820] devenv.exe Information: 0 : 	
+00000208	1.34159291	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\net.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000209	1.34163797	[18820] devenv.exe Information: 0 : 	
+00000210	1.34166515	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\net.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000211	1.34170532	[18820] devenv.exe Information: 0 : 	
+00000212	1.34173298	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\net.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000213	1.44376183	[18820] devenv.exe Information: 0 : 	
+00000214	1.44382739	[18820] BuildProjectBase+BuildCompletedCallbackManager.BuildCompleted about to call TryFlush on all loggers (thread 32). 	
+00000215	1.44390011	[18820] devenv.exe Information: 0 : 	
+00000216	1.44394565	[18820] At least one of the loggers is not fully flushed yet.  Waiting for callback when it's ready. (thread 32). 	
+00000217	1.46036804	[18820] devenv.exe Information: 0 : 	
+00000218	1.46042335	[18820] BuildProjectBase+BuildCompletedCallbackManager.BuildCompleted about to call TryFlush on all loggers (thread 1). 	
+00000219	1.47455227	[18820] devenv.exe Information: 0 : 	
+00000220	1.47459197	[18820] All loggers report clear (thread 1). 	
+00000221	1.47464108	[18820] devenv.exe Information: 0 : 	
+00000222	1.47467411	[18820] BuildProjectBase+BuildCompletedCallbackManager.BuildCompleted invoking BuildProjectBase's client callback. 	
+00000223	1.47471786	[18820] devenv.exe Information: 0 : 	
+00000224	1.47474945	[18820] VCConfigBuildJob.BuildCompleted called. 	
+00000225	1.47482181	[18820] devenv.exe Information: 0 : 	
+00000226	1.47485566	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000227	1.47492528	[18820] devenv.exe Information: 0 : 	
+00000228	1.47495747	[18820] BuildProjectBase.EndBuildInsideOrOutsideVisualStudio: SolutionBuildManagerIsPresent == True, oneOffBuild == False 	
+00000229	1.47500789	[18820] devenv.exe Information: 0 : 	
+00000230	1.47503948	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000231	1.47510242	[18820] devenv.exe Information: 0 : 	
+00000232	1.47513497	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000233	1.47648263	[18820] devenv.exe Information: 0 : 	
+00000234	1.47654235	[18820] VCConfigBuildJob.RemoveJob called. 	
+00000235	1.63545525	[18820] devenv.exe Information: 0 : 	
+00000236	1.63548338	[18820] BuildProjectBase+BuildCompletedCallbackManager.BuildCompleted about to call TryFlush on all loggers (thread 21). 	
+00000237	1.63792419	[18820] devenv.exe Information: 0 : 	
+00000238	1.63795364	[18820] All loggers report clear (thread 21). 	
+00000239	1.63800180	[18820] devenv.exe Information: 0 : 	
+00000240	1.63803077	[18820] BuildProjectBase+BuildCompletedCallbackManager.BuildCompleted invoking BuildProjectBase's client callback. 	
+00000241	1.63808119	[18820] devenv.exe Information: 0 : 	
+00000242	1.63812315	[18820] VCConfigBuildJob.BuildCompleted called. 	
+00000243	1.64209986	[18820] devenv.exe Information: 0 : 	
+00000244	1.64213955	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000245	1.64220870	[18820] devenv.exe Information: 0 : 	
+00000246	1.64224219	[18820] BuildProjectBase.EndBuildInsideOrOutsideVisualStudio: SolutionBuildManagerIsPresent == True, oneOffBuild == False 	
+00000247	1.64229655	[18820] devenv.exe Information: 0 : 	
+00000248	1.64232922	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000249	1.64238811	[18820] devenv.exe Information: 0 : 	
+00000250	1.64242113	[18820] Resolving service 'Microsoft.VisualStudio.Shell.Interop.SVsBuildManagerAccessor' through the service provider System.__ComObject. 	
+00000251	1.64258528	[18820] devenv.exe Information: 0 : 	
+00000252	1.64261830	[18820] VCConfigBuildJob.RemoveJob called. 	
+00000253	1.64717460	[18820] devenv.exe Information: 0 : 	
+00000254	1.64720404	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\common.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000255	1.64733922	[18820] devenv.exe Information: 0 : 	
+00000256	1.64736867	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\common.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000257	1.64741516	[18820] devenv.exe Information: 0 : 	
+00000258	1.64744234	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\common.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000259	1.64748430	[18820] devenv.exe Information: 0 : 	
+00000260	1.64751065	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\common.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000261	1.64754856	[18820] devenv.exe Information: 0 : 	
+00000262	1.64757442	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\common.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000263	1.64761233	[18820] devenv.exe Information: 0 : 	
+00000264	1.64763916	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\common.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000265	1.65189600	[18820] devenv.exe Information: 0 : 	
+00000266	1.65192497	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\game.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000267	1.65200710	[18820] devenv.exe Information: 0 : 	
+00000268	1.65203702	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\game.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000269	1.65208244	[18820] devenv.exe Information: 0 : 	
+00000270	1.65211201	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\game.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000271	1.65215123	[18820] devenv.exe Information: 0 : 	
+00000272	1.65217841	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\game.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000273	1.65221858	[18820] devenv.exe Information: 0 : 	
+00000274	1.65224576	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\game.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000275	1.65228772	[18820] devenv.exe Information: 0 : 	
+00000276	1.65231454	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\game.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000277	1.65479815	[18820] devenv.exe Information: 0 : 	
+00000278	1.65482855	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\mediafile.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000279	1.65490842	[18820] devenv.exe Information: 0 : 	
+00000280	1.65493691	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\mediafile.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000281	1.65498328	[18820] devenv.exe Information: 0 : 	
+00000282	1.65501058	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\mediafile.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000283	1.65504897	[18820] devenv.exe Information: 0 : 	
+00000284	1.65507519	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\mediafile.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000285	1.65511405	[18820] devenv.exe Information: 0 : 	
+00000286	1.65514171	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\mediafile.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000287	1.65517962	[18820] devenv.exe Information: 0 : 	
+00000288	1.65520692	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\mediafile.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	
+00000289	1.66510391	[18820] devenv.exe Information: 0 : 	
+00000290	1.66513383	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\bzflag.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.COMMON.TARGETS' ignored since it is in the exclude path list. 	
+00000291	1.66521454	[18820] devenv.exe Information: 0 : 	
+00000292	1.66524267	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\bzflag.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.PROPS' ignored since it is in the exclude path list. 	
+00000293	1.66528726	[18820] devenv.exe Information: 0 : 	
+00000294	1.66531408	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\bzflag.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.NETFRAMEWORK.TARGETS' ignored since it is in the exclude path list. 	
+00000295	1.66535378	[18820] devenv.exe Information: 0 : 	
+00000296	1.66537964	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\bzflag.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.WINFX.TARGETS' ignored since it is in the exclude path list. 	
+00000297	1.66541934	[18820] devenv.exe Information: 0 : 	
+00000298	1.66544569	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\bzflag.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.DATA.ENTITY.TARGETS' ignored since it is in the exclude path list. 	
+00000299	1.66548359	[18820] devenv.exe Information: 0 : 	
+00000300	1.66551042	[18820] Project 'C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\A2\bzflag-2.4.2\MSVC\build\bzflag.vcxproj' file 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.XAML.TARGETS' ignored since it is in the exclude path list. 	

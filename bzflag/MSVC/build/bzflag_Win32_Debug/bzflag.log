@@ -1,436 +1,193 @@
-﻿Build started 11/11/2013 10:16:18 AM.
-     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\bzflag.vcxproj" on node 5 (build target(s)).
-     1>InitializeBuildStatus:
-         Touching "bzflag_Win32_Debug\bzflag.unsuccessfulbuild".
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\win32 /I.\ /I../../src/other/curl/include /I./curl /I../../src/other/zlib/ /I../../src/other/glew/include/ /I..\..\src\yagsbpl /ZI /nologo /W3 /WX- /MP /Od /Oy- /D _WINDOWS /D WIN32 /D _DEBUG /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"bzflag_Win32_Debug\\" /Fd"..\..\bin_Win32" /Gd /TP /analyze- /errorReport:prompt ..\..\src\bzflag\ActionBinding.cxx ..\..\src\bzflag\AStarNode.cpp ..\..\src\bzflag\AutoPilot.cxx ..\..\src\bzflag\dectree.cxx ..\..\src\common\BZDBLocal.cxx ..\..\src\bzflag\bzflag.cxx ..\..\src\bzflag\callbacks.cxx ..\..\src\bzflag\clientCommands.cxx ..\..\src\bzflag\CommandsImplementation.cxx ..\..\src\bzflag\Downloads.cxx ..\..\src\bzflag\EntryZone.cxx ..\..\src\bzflag\FlashClock.cxx ..\..\src\bzflag\ForceFeedback.cxx ..\..\src\bzflag\LocalCommand.cxx ..\..\src\bzflag\MainWindow.cxx ..\..\src\bzflag\motd.cxx ..\..\src\bzflag\Plan.cxx ..\..\src\bzflag\Region.cxx ..\..\src\bzflag\Roaming.cxx ..\..\src\bzflag\RoofTops.cxx ..\..\src\bzflag\ServerLink.cxx ..\..\src\bzflag\ServerListFilter.cxx ..\..\src\bzflag\ShotStatistics.cxx ..\..\src\bzflag\ShotStats.cxx ..\..\src\bzflag\ShotStatsDefaultKey.cxx ..\..\src\bzflag\sound.cxx ..\..\src\bzflag\TargetingUtils.cxx ..\..\src\bzflag\TrackMarks.cxx ..\..\src\bzflag\Weapon.cxx ..\..\src\bzflag\BackgroundRenderer.cxx ..\..\src\bzflag\ControlPanel.cxx ..\..\src\bzflag\daylight.cxx ..\..\src\bzflag\effectsRenderer.cxx ..\..\src\bzflag\HUDDialog.cxx ..\..\src\bzflag\HUDRenderer.cxx ..\..\src\bzflag\HUDui.cxx ..\..\src\bzflag\HUDuiControl.cxx ..\..\src\bzflag\HUDuiDefaultKey.cxx ..\..\src\bzflag\HUDuiLabel.cxx ..\..\src\bzflag\HUDuiList.cxx ..\..\src\bzflag\HUDuiTextureLabel.cxx ..\..\src\bzflag\HUDuiTypeIn.cxx ..\..\src\bzflag\RadarRenderer.cxx ..\..\src\bzflag\SceneBuilder.cxx ..\..\src\bzflag\SceneRenderer.cxx ..\..\src\bzflag\ScoreboardRenderer.cxx ..\..\src\bzflag\stars.cxx ..\..\src\bzflag\WeatherRenderer.cxx ..\..\src\bzflag\BaseLocalPlayer.cxx ..\..\src\bzflag\ComposeDefaultKey.cxx ..\..\src\bzflag\LocalPlayer.cxx ..\..\src\bzflag\Player.cxx ..\..\src\bzflag\playing.cxx ..\..\src\bzflag\RegionPriorityQueue.cxx ..\..\src\bzflag\RemotePlayer.cxx ..\..\src\bzflag\RobotPlayer.cxx ..\..\src\bzflag\Roster.cxx ..\..\src\bzflag\ServerCommandKey.cxx ..\..\src\bzflag\SilenceDefaultKey.cxx ..\..\src\bzflag\World.cxx ..\..\src\bzflag\WorldBuilder.cxx ..\..\src\bzflag\WorldPlayer.cxx ..\..\src\bzflag\GuidedMissleStrategy.cxx ..\..\src\bzflag\SegmentedShotStrategy.cxx ..\..\src\bzflag\ShockWaveStrategy.cxx ..\..\src\bzflag\ShotPath.cxx ..\..\src\bzflag\ShotPathSegment.cxx ..\..\src\bzflag\ShotStrategy.cxx ..\..\src\bzflag\AudioMenu.cxx ..\..\src\bzflag\CacheMenu.cxx ..\..\src\bzflag\DisplayMenu.cxx ..\..\src\bzflag\EffectsMenu.cxx ..\..\src\bzflag\FormatMenu.cxx ..\..\src\bzflag\GUIOptionsMenu.cxx ..\..\src\bzflag\HelpMenu.cxx ..\..\src\bzflag\HUDDialogStack.cxx ..\..\src\bzflag\InputMenu.cxx ..\..\src\bzflag\JoinMenu.cxx ..\..\src\bzflag\KeyboardMapMenu.cxx ..\..\src\bzflag\MainMenu.cxx ..\..\src\bzflag\MenuDefaultKey.cxx ..\..\src\bzflag\NewVersionMenu.cxx ..\..\src\bzflag\OptionsMenu.cxx ..\..\src\bzflag\QuickKeysMenu.cxx ..\..\src\bzflag\QuitMenu.cxx ..\..\src\bzflag\SaveWorldMenu.cxx ..\..\src\bzflag\ServerMenu.cxx ..\..\src\bzflag\ServerStartMenu.cxx ..\..\src\bzflag\defaultBZDB.cxx ..\..\src\bzflag\clientConfig.cxx
-         ActionBinding.cxx
-         AStarNode.cpp
-         AutoPilot.cxx
-         dectree.cxx
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\astarnode.cpp(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\astarnode.cpp(94): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-         BZDBLocal.cxx
-         bzflag.cxx
-         callbacks.cxx
-         clientCommands.cxx
-         CommandsImplementation.cxx
-         Downloads.cxx
-         EntryZone.cxx
-         FlashClock.cxx
-         ForceFeedback.cxx
-         LocalCommand.cxx
-         MainWindow.cxx
-         motd.cxx
-         Plan.cxx
-         Region.cxx
-         Roaming.cxx
-         RoofTops.cxx
-         ServerLink.cxx
-         ServerListFilter.cxx
-         ShotStatistics.cxx
-         ShotStats.cxx
-         ShotStatsDefaultKey.cxx
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\serverlistfilter.cxx(214): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\serverlistfilter.cxx(215): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\serverlistfilter.cxx(216): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\serverlistfilter.cxx(217): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\serverlistfilter.cxx(218): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\serverlistfilter.cxx(457): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-         sound.cxx
-         TargetingUtils.cxx
-         TrackMarks.cxx
-         Weapon.cxx
-         BackgroundRenderer.cxx
-         ControlPanel.cxx
-         daylight.cxx
-         effectsRenderer.cxx
-         HUDDialog.cxx
-         HUDRenderer.cxx
-         HUDui.cxx
-         HUDuiControl.cxx
-         HUDuiDefaultKey.cxx
-         HUDuiLabel.cxx
-         HUDuiList.cxx
-         HUDuiTextureLabel.cxx
-         HUDuiTypeIn.cxx
-         RadarRenderer.cxx
-         SceneBuilder.cxx
-         SceneRenderer.cxx
-         ScoreboardRenderer.cxx
-         stars.cxx
-         WeatherRenderer.cxx
-         BaseLocalPlayer.cxx
-         ComposeDefaultKey.cxx
-         LocalPlayer.cxx
-         Player.cxx
-         playing.cxx
-         RegionPriorityQueue.cxx
-         RemotePlayer.cxx
-         RobotPlayer.cxx
-         Roster.cxx
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\playing.cxx(1571): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned long', possible loss of data
-         ServerCommandKey.cxx
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\robotplayer.cxx(446): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\robotplayer.cxx(646): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\robotplayer.cxx(895): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\robotplayer.cxx(896): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\robotplayer.cxx(897): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\robotplayer.cxx(1121): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.h(235): warning C4018: '<' : signed/unsigned mismatch
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.h(231) : while compiling class template member function 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::~HashTableContainer(void)'
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double,
-                     PlannerSpecificVariables=A_star_variables<double>
-                 ]
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.h(255) : see reference to class template instantiation 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>' being compiled
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double,
-                     PlannerSpecificVariables=A_star_variables<double>
-                 ]
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.h(255) : while compiling class template member function 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>::~GenericPlanner(void)'
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double,
-                     PlannerSpecificVariables=A_star_variables<double>
-                 ]
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\planners\a_star.h(66) : see reference to class template instantiation 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>' being compiled
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double,
-                     PlannerSpecificVariables=A_star_variables<double>
-                 ]
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\bzflag\robotplayer.cxx(1104) : see reference to class template instantiation 'A_star_planner<NodeType,CostType>' being compiled
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double
-                 ]
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\planners\a_star.h(191): warning C4018: '<' : signed/unsigned mismatch
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\planners\a_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double
-                 ]
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\planners\a_star.h(345): warning C4018: '<' : signed/unsigned mismatch
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\planners\a_star.h(264) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::plan(void)'
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double
-                 ]
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\planners\a_star.h(474): warning C4018: '<' : signed/unsigned mismatch
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\planners\a_star.h(471) : while compiling class template member function 'std::vector<_Ty> A_star_planner<NodeType,CostType>::getPlannedPaths(void)'
-                 with
-                 [
-                     _Ty=std::vector<AStarNode>,
-                     NodeType=AStarNode,
-                     CostType=double
-                 ]
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.cpp(55): warning C4018: '<' : signed/unsigned mismatch
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.cpp(32) : while compiling class template member function 'void HeapContainer<NodeType,CostType,PlannerSpecificVariables>::update(SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *,HeapContainer<NodeType,CostType,PlannerSpecificVariables>::BubbleDirection)'
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double,
-                     PlannerSpecificVariables=A_star_variables<double>
-                 ]
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\planners\a_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double
-                 ]
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.cpp(55): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.cpp(57): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.cpp(59): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.cpp(281): warning C4018: '<' : signed/unsigned mismatch
-                 c:\dropbox\computer science\ics 462 ai for games\software\bzflag-2.4.2 2010\src\yagsbpl\yagsbpl_base.cpp(277) : while compiling class template member function 'SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::getNodeInHash(NodeType)'
-                 with
-                 [
-                     NodeType=AStarNode,
-                     CostType=double,
-                     PlannerSpecificVariables=A_star_variables<double>
-                 ]
-         SilenceDefaultKey.cxx
-         World.cxx
-         WorldBuilder.cxx
-         WorldPlayer.cxx
-         GuidedMissleStrategy.cxx
-         SegmentedShotStrategy.cxx
-         ShockWaveStrategy.cxx
-         ShotPath.cxx
-         ShotPathSegment.cxx
-         ShotStrategy.cxx
-         AudioMenu.cxx
-         CacheMenu.cxx
-         DisplayMenu.cxx
-         EffectsMenu.cxx
-         FormatMenu.cxx
-         GUIOptionsMenu.cxx
-         HelpMenu.cxx
-         HUDDialogStack.cxx
-         InputMenu.cxx
-         JoinMenu.cxx
-         KeyboardMapMenu.cxx
-         MainMenu.cxx
-         MenuDefaultKey.cxx
-         NewVersionMenu.cxx
-         OptionsMenu.cxx
-         QuickKeysMenu.cxx
-         QuitMenu.cxx
-         SaveWorldMenu.cxx
-         ServerMenu.cxx
-         ServerStartMenu.cxx
-         defaultBZDB.cxx
-         clientConfig.cxx
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\win32 /I.\ /I../../src/other/curl/include /I./curl /I../../src/other/zlib/ /I../../src/other/glew/include/ /I..\..\src\yagsbpl /ZI /nologo /W3 /WX- /MP /Od /Oy- /D _WINDOWS /D WIN32 /D _DEBUG /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"bzflag_Win32_Debug\\" /Fd"..\..\bin_Win32" /Gd /TC /analyze- /errorReport:prompt ..\..\src\other\glew\src\glew.c
-         glew.c
-       ResourceCompile:
-         All outputs are up-to-date.
-       ManifestResourceCompile:
-         All outputs are up-to-date.
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bzflag_Win32_Debug\bzflag.exe" /INCREMENTAL /NOLOGO ws2_32.lib dsound.lib winmm.lib glu32.lib opengl32.lib odbc32.lib odbccp32.lib regex.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"bzflag_Win32_Debug\bzflag.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"bzflag_Win32_Debug\bzflag.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bzflag_Win32_Debug\bzflag.lib" /MACHINE:X86 bzflag_Win32_Debug\bzflag.res
-         bzflag_Win32_Debug\bzflag.exe.embed.manifest.res
-         bzflag_Win32_Debug\ActionBinding.obj
-         bzflag_Win32_Debug\AStarNode.obj
-         bzflag_Win32_Debug\AutoPilot.obj
-         bzflag_Win32_Debug\dectree.obj
-         bzflag_Win32_Debug\BZDBLocal.obj
-         bzflag_Win32_Debug\bzflag.obj
-         bzflag_Win32_Debug\callbacks.obj
-         bzflag_Win32_Debug\clientCommands.obj
-         bzflag_Win32_Debug\CommandsImplementation.obj
-         bzflag_Win32_Debug\Downloads.obj
-         bzflag_Win32_Debug\EntryZone.obj
-         bzflag_Win32_Debug\FlashClock.obj
-         bzflag_Win32_Debug\ForceFeedback.obj
-         bzflag_Win32_Debug\glew.obj
-         bzflag_Win32_Debug\LocalCommand.obj
-         bzflag_Win32_Debug\MainWindow.obj
-         bzflag_Win32_Debug\motd.obj
-         bzflag_Win32_Debug\Plan.obj
-         bzflag_Win32_Debug\Region.obj
-         bzflag_Win32_Debug\Roaming.obj
-         bzflag_Win32_Debug\RoofTops.obj
-         bzflag_Win32_Debug\ServerLink.obj
-         bzflag_Win32_Debug\ServerListFilter.obj
-         bzflag_Win32_Debug\ShotStatistics.obj
-         bzflag_Win32_Debug\ShotStats.obj
-         bzflag_Win32_Debug\ShotStatsDefaultKey.obj
-         bzflag_Win32_Debug\sound.obj
-         bzflag_Win32_Debug\TargetingUtils.obj
-         bzflag_Win32_Debug\TrackMarks.obj
-         bzflag_Win32_Debug\Weapon.obj
-         bzflag_Win32_Debug\BackgroundRenderer.obj
-         bzflag_Win32_Debug\ControlPanel.obj
-         bzflag_Win32_Debug\daylight.obj
-         bzflag_Win32_Debug\effectsRenderer.obj
-         bzflag_Win32_Debug\HUDDialog.obj
-         bzflag_Win32_Debug\HUDRenderer.obj
-         bzflag_Win32_Debug\HUDui.obj
-         bzflag_Win32_Debug\HUDuiControl.obj
-         bzflag_Win32_Debug\HUDuiDefaultKey.obj
-         bzflag_Win32_Debug\HUDuiLabel.obj
-         bzflag_Win32_Debug\HUDuiList.obj
-         bzflag_Win32_Debug\HUDuiTextureLabel.obj
-         bzflag_Win32_Debug\HUDuiTypeIn.obj
-         bzflag_Win32_Debug\RadarRenderer.obj
-         bzflag_Win32_Debug\SceneBuilder.obj
-         bzflag_Win32_Debug\SceneRenderer.obj
-         bzflag_Win32_Debug\ScoreboardRenderer.obj
-         bzflag_Win32_Debug\stars.obj
-         bzflag_Win32_Debug\WeatherRenderer.obj
-         bzflag_Win32_Debug\BaseLocalPlayer.obj
-         bzflag_Win32_Debug\ComposeDefaultKey.obj
-         bzflag_Win32_Debug\LocalPlayer.obj
-         bzflag_Win32_Debug\Player.obj
-         bzflag_Win32_Debug\playing.obj
-         bzflag_Win32_Debug\RegionPriorityQueue.obj
-         bzflag_Win32_Debug\RemotePlayer.obj
-         bzflag_Win32_Debug\RobotPlayer.obj
-         bzflag_Win32_Debug\Roster.obj
-         bzflag_Win32_Debug\ServerCommandKey.obj
-         bzflag_Win32_Debug\SilenceDefaultKey.obj
-         bzflag_Win32_Debug\World.obj
-         bzflag_Win32_Debug\WorldBuilder.obj
-         bzflag_Win32_Debug\WorldPlayer.obj
-         bzflag_Win32_Debug\GuidedMissleStrategy.obj
-         bzflag_Win32_Debug\SegmentedShotStrategy.obj
-         bzflag_Win32_Debug\ShockWaveStrategy.obj
-         bzflag_Win32_Debug\ShotPath.obj
-         bzflag_Win32_Debug\ShotPathSegment.obj
-         bzflag_Win32_Debug\ShotStrategy.obj
-         bzflag_Win32_Debug\AudioMenu.obj
-         bzflag_Win32_Debug\CacheMenu.obj
-         bzflag_Win32_Debug\DisplayMenu.obj
-         bzflag_Win32_Debug\EffectsMenu.obj
-         bzflag_Win32_Debug\FormatMenu.obj
-         bzflag_Win32_Debug\GUIOptionsMenu.obj
-         bzflag_Win32_Debug\HelpMenu.obj
-         bzflag_Win32_Debug\HUDDialogStack.obj
-         bzflag_Win32_Debug\InputMenu.obj
-         bzflag_Win32_Debug\JoinMenu.obj
-         bzflag_Win32_Debug\KeyboardMapMenu.obj
-         bzflag_Win32_Debug\MainMenu.obj
-         bzflag_Win32_Debug\MenuDefaultKey.obj
-         bzflag_Win32_Debug\NewVersionMenu.obj
-         bzflag_Win32_Debug\OptionsMenu.obj
-         bzflag_Win32_Debug\QuickKeysMenu.obj
-         bzflag_Win32_Debug\QuitMenu.obj
-         bzflag_Win32_Debug\SaveWorldMenu.obj
-         bzflag_Win32_Debug\ServerMenu.obj
-         bzflag_Win32_Debug\ServerStartMenu.obj
-         bzflag_Win32_Debug\defaultBZDB.obj
-         bzflag_Win32_Debug\clientConfig.obj
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\3D_Win32_Debug\3D.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\ares_Win32_Debug\ares.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\common_Win32_Debug\common.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\date_Win32_Debug\date.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\game_Win32_Debug\game.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\geometry_Win32_Debug\geometry.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\zlib_Win32_Debug\zlib.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\mediafile_Win32_Debug\mediafile.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\net_Win32_Debug\net.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\obstacle_Win32_Debug\obstacle.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\ogl_Win32_Debug\ogl.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\platform_Win32_Debug\platform.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\scene_Win32_Debug\scene.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\libcurl_Win32_Debug\libcurl.lib"
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"bzflag_Win32_Debug\bzflag.exe.embed.manifest" /manifest bzflag_Win32_Debug\bzflag.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"bzflag_Win32_Debug\bzflag.exe.embed.manifest.res" bzflag_Win32_Debug\bzflag_manifest.rc 
-       LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bzflag_Win32_Debug\bzflag.exe" /INCREMENTAL /NOLOGO ws2_32.lib dsound.lib winmm.lib glu32.lib opengl32.lib odbc32.lib odbccp32.lib regex.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"bzflag_Win32_Debug\bzflag.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"bzflag_Win32_Debug\bzflag.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bzflag_Win32_Debug\bzflag.lib" /MACHINE:X86 bzflag_Win32_Debug\bzflag.res
-         bzflag_Win32_Debug\bzflag.exe.embed.manifest.res
-         bzflag_Win32_Debug\ActionBinding.obj
-         bzflag_Win32_Debug\AStarNode.obj
-         bzflag_Win32_Debug\AutoPilot.obj
-         bzflag_Win32_Debug\dectree.obj
-         bzflag_Win32_Debug\BZDBLocal.obj
-         bzflag_Win32_Debug\bzflag.obj
-         bzflag_Win32_Debug\callbacks.obj
-         bzflag_Win32_Debug\clientCommands.obj
-         bzflag_Win32_Debug\CommandsImplementation.obj
-         bzflag_Win32_Debug\Downloads.obj
-         bzflag_Win32_Debug\EntryZone.obj
-         bzflag_Win32_Debug\FlashClock.obj
-         bzflag_Win32_Debug\ForceFeedback.obj
-         bzflag_Win32_Debug\glew.obj
-         bzflag_Win32_Debug\LocalCommand.obj
-         bzflag_Win32_Debug\MainWindow.obj
-         bzflag_Win32_Debug\motd.obj
-         bzflag_Win32_Debug\Plan.obj
-         bzflag_Win32_Debug\Region.obj
-         bzflag_Win32_Debug\Roaming.obj
-         bzflag_Win32_Debug\RoofTops.obj
-         bzflag_Win32_Debug\ServerLink.obj
-         bzflag_Win32_Debug\ServerListFilter.obj
-         bzflag_Win32_Debug\ShotStatistics.obj
-         bzflag_Win32_Debug\ShotStats.obj
-         bzflag_Win32_Debug\ShotStatsDefaultKey.obj
-         bzflag_Win32_Debug\sound.obj
-         bzflag_Win32_Debug\TargetingUtils.obj
-         bzflag_Win32_Debug\TrackMarks.obj
-         bzflag_Win32_Debug\Weapon.obj
-         bzflag_Win32_Debug\BackgroundRenderer.obj
-         bzflag_Win32_Debug\ControlPanel.obj
-         bzflag_Win32_Debug\daylight.obj
-         bzflag_Win32_Debug\effectsRenderer.obj
-         bzflag_Win32_Debug\HUDDialog.obj
-         bzflag_Win32_Debug\HUDRenderer.obj
-         bzflag_Win32_Debug\HUDui.obj
-         bzflag_Win32_Debug\HUDuiControl.obj
-         bzflag_Win32_Debug\HUDuiDefaultKey.obj
-         bzflag_Win32_Debug\HUDuiLabel.obj
-         bzflag_Win32_Debug\HUDuiList.obj
-         bzflag_Win32_Debug\HUDuiTextureLabel.obj
-         bzflag_Win32_Debug\HUDuiTypeIn.obj
-         bzflag_Win32_Debug\RadarRenderer.obj
-         bzflag_Win32_Debug\SceneBuilder.obj
-         bzflag_Win32_Debug\SceneRenderer.obj
-         bzflag_Win32_Debug\ScoreboardRenderer.obj
-         bzflag_Win32_Debug\stars.obj
-         bzflag_Win32_Debug\WeatherRenderer.obj
-         bzflag_Win32_Debug\BaseLocalPlayer.obj
-         bzflag_Win32_Debug\ComposeDefaultKey.obj
-         bzflag_Win32_Debug\LocalPlayer.obj
-         bzflag_Win32_Debug\Player.obj
-         bzflag_Win32_Debug\playing.obj
-         bzflag_Win32_Debug\RegionPriorityQueue.obj
-         bzflag_Win32_Debug\RemotePlayer.obj
-         bzflag_Win32_Debug\RobotPlayer.obj
-         bzflag_Win32_Debug\Roster.obj
-         bzflag_Win32_Debug\ServerCommandKey.obj
-         bzflag_Win32_Debug\SilenceDefaultKey.obj
-         bzflag_Win32_Debug\World.obj
-         bzflag_Win32_Debug\WorldBuilder.obj
-         bzflag_Win32_Debug\WorldPlayer.obj
-         bzflag_Win32_Debug\GuidedMissleStrategy.obj
-         bzflag_Win32_Debug\SegmentedShotStrategy.obj
-         bzflag_Win32_Debug\ShockWaveStrategy.obj
-         bzflag_Win32_Debug\ShotPath.obj
-         bzflag_Win32_Debug\ShotPathSegment.obj
-         bzflag_Win32_Debug\ShotStrategy.obj
-         bzflag_Win32_Debug\AudioMenu.obj
-         bzflag_Win32_Debug\CacheMenu.obj
-         bzflag_Win32_Debug\DisplayMenu.obj
-         bzflag_Win32_Debug\EffectsMenu.obj
-         bzflag_Win32_Debug\FormatMenu.obj
-         bzflag_Win32_Debug\GUIOptionsMenu.obj
-         bzflag_Win32_Debug\HelpMenu.obj
-         bzflag_Win32_Debug\HUDDialogStack.obj
-         bzflag_Win32_Debug\InputMenu.obj
-         bzflag_Win32_Debug\JoinMenu.obj
-         bzflag_Win32_Debug\KeyboardMapMenu.obj
-         bzflag_Win32_Debug\MainMenu.obj
-         bzflag_Win32_Debug\MenuDefaultKey.obj
-         bzflag_Win32_Debug\NewVersionMenu.obj
-         bzflag_Win32_Debug\OptionsMenu.obj
-         bzflag_Win32_Debug\QuickKeysMenu.obj
-         bzflag_Win32_Debug\QuitMenu.obj
-         bzflag_Win32_Debug\SaveWorldMenu.obj
-         bzflag_Win32_Debug\ServerMenu.obj
-         bzflag_Win32_Debug\ServerStartMenu.obj
-         bzflag_Win32_Debug\defaultBZDB.obj
-         bzflag_Win32_Debug\clientConfig.obj
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\3D_Win32_Debug\3D.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\ares_Win32_Debug\ares.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\common_Win32_Debug\common.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\date_Win32_Debug\date.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\game_Win32_Debug\game.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\geometry_Win32_Debug\geometry.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\zlib_Win32_Debug\zlib.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\mediafile_Win32_Debug\mediafile.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\net_Win32_Debug\net.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\obstacle_Win32_Debug\obstacle.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\ogl_Win32_Debug\ogl.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\platform_Win32_Debug\platform.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\scene_Win32_Debug\scene.lib"
-         "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\libcurl_Win32_Debug\libcurl.lib"
-         bzflag.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\bzflag_Win32_Debug\bzflag.exe
-       PostBuildEvent:
-         mkdir ..\..\bin_Win32
-         copy bzflag_Win32_Debug\*.exe ..\..\bin_Win32\
-         
-         :VCEnd
-         A subdirectory or file ..\..\bin_Win32 already exists.
-         bzflag_Win32_Debug\bzflag.exe
-                 1 file(s) copied.
-       FinalizeBuildStatus:
-         Deleting file "bzflag_Win32_Debug\bzflag.unsuccessfulbuild".
-         Touching "bzflag_Win32_Debug\bzflag.lastbuildstate".
-     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\bzflag.vcxproj" (build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:01:46.66
+﻿  ActionBinding.cxx
+  AStarNode.cpp
+  AutoPilot.cxx
+  dectree.cxx
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\astarnode.cpp(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\astarnode.cpp(94): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+  BZDBLocal.cxx
+  bzflag.cxx
+  callbacks.cxx
+  clientCommands.cxx
+  CommandsImplementation.cxx
+  Downloads.cxx
+  EntryZone.cxx
+  FlashClock.cxx
+  ForceFeedback.cxx
+  LocalCommand.cxx
+  MainWindow.cxx
+  motd.cxx
+  Plan.cxx
+  Region.cxx
+  Roaming.cxx
+  RoofTops.cxx
+  ServerLink.cxx
+  ServerListFilter.cxx
+  ShotStatistics.cxx
+  ShotStats.cxx
+  ShotStatsDefaultKey.cxx
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(214): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(215): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(216): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(217): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(218): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(457): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  sound.cxx
+  TargetingUtils.cxx
+  TrackMarks.cxx
+  Weapon.cxx
+  BackgroundRenderer.cxx
+  ControlPanel.cxx
+  daylight.cxx
+  effectsRenderer.cxx
+  HUDDialog.cxx
+  HUDRenderer.cxx
+  HUDui.cxx
+  HUDuiControl.cxx
+  HUDuiDefaultKey.cxx
+  HUDuiLabel.cxx
+  HUDuiList.cxx
+  HUDuiTextureLabel.cxx
+  HUDuiTypeIn.cxx
+  RadarRenderer.cxx
+  SceneBuilder.cxx
+  SceneRenderer.cxx
+  ScoreboardRenderer.cxx
+  stars.cxx
+  WeatherRenderer.cxx
+  BaseLocalPlayer.cxx
+  ComposeDefaultKey.cxx
+  LocalPlayer.cxx
+  Player.cxx
+  playing.cxx
+  RegionPriorityQueue.cxx
+  RemotePlayer.cxx
+  RobotPlayer.cxx
+  Roster.cxx
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\playing.cxx(1571): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+  ServerCommandKey.cxx
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(446): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(646): warning C4018: '<' : signed/unsigned mismatch
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(895): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(896): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(897): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(1121): warning C4018: '<' : signed/unsigned mismatch
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(235): warning C4018: '<' : signed/unsigned mismatch
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(231) : while compiling class template member function 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::~HashTableContainer(void)'
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(255) : see reference to class template instantiation 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>' being compiled
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(255) : while compiling class template member function 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>::~GenericPlanner(void)'
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(66) : see reference to class template instantiation 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>' being compiled
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(1104) : see reference to class template instantiation 'A_star_planner<NodeType,CostType>' being compiled
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double
+          ]
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(191): warning C4018: '<' : signed/unsigned mismatch
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double
+          ]
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(345): warning C4018: '<' : signed/unsigned mismatch
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(264) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::plan(void)'
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double
+          ]
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(474): warning C4018: '<' : signed/unsigned mismatch
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(471) : while compiling class template member function 'std::vector<_Ty> A_star_planner<NodeType,CostType>::getPlannedPaths(void)'
+          with
+          [
+              _Ty=std::vector<AStarNode>,
+              NodeType=AStarNode,
+              CostType=double
+          ]
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(32) : while compiling class template member function 'void HeapContainer<NodeType,CostType,PlannerSpecificVariables>::update(SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *,HeapContainer<NodeType,CostType,PlannerSpecificVariables>::BubbleDirection)'
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double
+          ]
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(277) : while compiling class template member function 'SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::getNodeInHash(NodeType)'
+          with
+          [
+              NodeType=AStarNode,
+              CostType=double,
+              PlannerSpecificVariables=A_star_variables<double>
+          ]
+  SilenceDefaultKey.cxx
+  World.cxx
+  WorldBuilder.cxx
+  WorldPlayer.cxx
+  GuidedMissleStrategy.cxx
+  SegmentedShotStrategy.cxx
+  ShockWaveStrategy.cxx
+  ShotPath.cxx
+  ShotPathSegment.cxx
+  ShotStrategy.cxx
+  AudioMenu.cxx
+  CacheMenu.cxx
+  DisplayMenu.cxx
+  EffectsMenu.cxx
+  FormatMenu.cxx
+  GUIOptionsMenu.cxx
+  HelpMenu.cxx
+  HUDDialogStack.cxx
+  InputMenu.cxx
+  JoinMenu.cxx
+  KeyboardMapMenu.cxx
+  MainMenu.cxx
+  MenuDefaultKey.cxx
+  NewVersionMenu.cxx
+  OptionsMenu.cxx
+  QuickKeysMenu.cxx
+  QuitMenu.cxx
+  SaveWorldMenu.cxx
+  ServerMenu.cxx
+  ServerStartMenu.cxx
+  defaultBZDB.cxx
+  clientConfig.cxx
+  glew.c
+  bzflag.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\bzflag_Win32_Debug\bzflag.exe
+  A subdirectory or file ..\..\bin_Win32 already exists.
+  bzflag_Win32_Debug\bzflag.exe
+          1 file(s) copied.

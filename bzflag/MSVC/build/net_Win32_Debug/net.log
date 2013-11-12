@@ -1,28 +1,7 @@
-﻿Build started 11/11/2013 10:07:00 AM.
-     1>Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\net.vcxproj" on node 2 (rebuild target(s)).
-     1>InitializeBuildStatus:
-         Creating "./net_Win32_Debug\net.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\win32 /I.\ /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./net_Win32_Debug\\" /Fd"./net_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\net\Address.cxx ..\..\src\net\AresHandler.cxx ..\..\src\net\multicast.cxx ..\..\src\net\network.cxx ..\..\src\net\Pack.cxx ..\..\src\net\Ping.cxx
-         Address.cxx
-         AresHandler.cxx
-         multicast.cxx
-         network.cxx
-         Pack.cxx
-         Ping.cxx
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./net_Win32_Debug\net.lib" /NOLOGO ./net_Win32_Debug\Address.obj
-         ./net_Win32_Debug\AresHandler.obj
-         ./net_Win32_Debug\multicast.obj
-         ./net_Win32_Debug\network.obj
-         ./net_Win32_Debug\Pack.obj
-         ./net_Win32_Debug\Ping.obj
-         net.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\./net_Win32_Debug\net.lib
-       FinalizeBuildStatus:
-         Deleting file "./net_Win32_Debug\net.unsuccessfulbuild".
-         Touching "./net_Win32_Debug\net.lastbuildstate".
-     1>Done Building Project "C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\bzflag-2.4.2 2010\MSVC\build\net.vcxproj" (rebuild target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:09.51
+﻿  Address.cxx
+  AresHandler.cxx
+  multicast.cxx
+  network.cxx
+  Pack.cxx
+  Ping.cxx
+  net.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./net_Win32_Debug\net.lib

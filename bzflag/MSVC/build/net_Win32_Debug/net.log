@@ -4,4 +4,5 @@
   network.cxx
   Pack.cxx
   Ping.cxx
-  net.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./net_Win32_Debug\net.lib
+  Generating Code...
+  net.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./net_Win32_Debug\net.lib

@@ -1,1 +1,16 @@
-﻿  platform.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./platform_Win32_Debug\platform.lib
+﻿  BzfDisplay.cxx
+  BzfJoystick.cxx
+  BzfMedia.cxx
+  BzfVisual.cxx
+  BzfWindow.cxx
+  DXJoystick.cxx
+  PlatformFactory.cxx
+  wave.cxx
+  WinDisplay.cxx
+  WinJoystick.cxx
+  WinMedia.cxx
+  WinPlatformFactory.cxx
+  WinVisual.cxx
+  WinWindow.cxx
+  Generating Code...
+  platform.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./platform_Win32_Debug\platform.lib

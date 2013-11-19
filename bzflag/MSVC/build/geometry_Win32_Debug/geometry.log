@@ -18,6 +18,8 @@
   PolyWallSceneNode.cxx
   PTSceneNode.cxx
   QuadWallSceneNode.cxx
+  Generating Code...
+  Compiling...
   SceneNode.cxx
   ShellSceneNode.cxx
   SphereSceneNode.cxx
@@ -38,8 +40,11 @@
   low_rtread.cxx
   low_turret.cxx
   medium_barrel.cxx
+  Generating Code...
+  Compiling...
   medium_body.cxx
   medium_ltread.cxx
   medium_rtread.cxx
   medium_turret.cxx
-  geometry.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./geometry_Win32_Debug\geometry.lib
+  Generating Code...
+  geometry.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./geometry_Win32_Debug\geometry.lib

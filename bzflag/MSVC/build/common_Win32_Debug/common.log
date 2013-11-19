@@ -18,6 +18,8 @@
   global.cxx
   KeyManager.cxx
   Language.cxx
+  Generating Code...
+  Compiling...
   md5.cxx
   messages.cxx
   OSFile.cxx
@@ -33,5 +35,6 @@
   TimeKeeper.cxx
   VotingBooth.cxx
   WordFilter.cxx
+  Generating Code...
   bzsignal.c
-  common.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./common_Win32_Debug\common.lib
+  common.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./common_Win32_Debug\common.lib

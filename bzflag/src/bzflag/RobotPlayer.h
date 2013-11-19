@@ -63,8 +63,19 @@ class RobotPlayer : public LocalPlayer {
 	bool		RobotPlayer::isHoldingFlag(float dt);
 	bool		RobotPlayer::isFlagSticky(float dt);
 	bool		RobotPlayer::isTeamFlag(float dt);
+	bool		RobotPlayer::isUsefulFlag(float dt);
 	bool		RobotPlayer::isMyTeamFlag(float dt);
 	void		RobotPlayer::dropFlag(float dt);
+
+	//booleans for flag ownership. Helps with decision making
+	bool		RobotPlayer::hasSuperBulletFlag(float dt);
+	bool		RobotPlayer::hasLaserFlag(float dt);
+	bool		RobotPlayer::hasGenocideFlag(float dt);
+	bool		RobotPlayer::hasGuidedMissileFlag(float dt);
+	bool		RobotPlayer::hasShockwaveFlag(float dt);
+	bool		RobotPlayer::hasShieldFlag(float dt);
+
+	void			RobotPlayer::findNearestFlag(float location[3], std::string flagName);
 
   private:
     void		doUpdate(float dt);

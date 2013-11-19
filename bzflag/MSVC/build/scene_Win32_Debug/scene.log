@@ -1,1 +1,7 @@
-﻿  scene.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./scene_Win32_Debug\scene.lib
+﻿  BSPSceneDatabase.cxx
+  Occluder.cxx
+  Octree.cxx
+  SceneDatabase.cxx
+  ZSceneDatabase.cxx
+  Generating Code...
+  scene.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./scene_Win32_Debug\scene.lib

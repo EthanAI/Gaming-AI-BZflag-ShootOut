@@ -528,6 +528,24 @@ bool		RobotPlayer::isTeamFlag(float dt)
 }
 
 /*
+ * is the robot tank's flag a useful non-team flag?
+ */
+bool		RobotPlayer::isUsefulFlag(float dt) 
+{
+	bool isUsefulFlag = false;
+	std::string usefulFlagNames ("xxx, Rapid Fire, Machine Gun, Guided Missile, Laser, Invisible Bullet, Super Bullet"); //incomplete list for testing
+	FlagType* myFlag = getFlag();
+	std::string myFlagName(myFlag->flagName);
+	std::string::size_type n1 = usefulFlagNames.find(myFlagName);
+	std::string::size_type n2 = std::string::npos;
+	int testNumber = 1;
+	if(usefulFlagNames.find(myFlagName) != std::string::npos) {
+		isUsefulFlag = true;
+	}
+	return isUsefulFlag;
+}
+
+/*
  * is the robot tank holding its own team flag?
  */
 bool		RobotPlayer::isMyTeamFlag(float dt)
@@ -574,6 +592,7 @@ void			RobotPlayer::restart(const float* pos, float _azimuth)
   pathIndex = -1;
 }
 
+// Probably need to modify the decsion making here too
 float			RobotPlayer::getTargetPriority(const
 							Player* _target) const
 {
@@ -614,6 +633,22 @@ const Player*		RobotPlayer::getTarget() const
   return target;
 }
 
+void			RobotPlayer::findNearestFlag(float location[3], std::string flagName) {
+	for (int i = 0; i < numFlags; i++) {
+		Flag& flag = World::getWorld()->getFlag(i);
+		//TODO add distance check to get nearest one
+		//TODO - lazer's speed already accounted for. Need to check range is accepted and check SuperBullet ignores buildings.
+		if(flagName.find(flag.type->flagName)) {
+			location[0] = flag.position[0];
+			location[1] = flag.position[1];
+			location[2] = flag.position[2];
+		}
+	}
+}
+
+/*
+*  Setting the target is a big deal and this part should get a looot more complicated. Break into functions or decision tree that this guy calls	
+*/
 void			RobotPlayer::setTarget(const Player* _target)
 {
   //static int mailbox = 0;
@@ -626,8 +661,11 @@ void			RobotPlayer::setTarget(const Player* _target)
   float goalPos[3];
   if (myTeamHoldingOpponentFlag())
 	  findHomeBase(myteam, goalPos);
-  else
-	  findOpponentFlag(goalPos);
+  else {
+	  //findOpponentFlag(goalPos); //temporarily force a particular flag to be the goal so we can test the flag code
+	  std::string flagName("Laser");
+	  findNearestFlag(goalPos, flagName);
+  }
 
   AStarNode goalNode(goalPos);
   if (!paths.empty() && goalNode == pathGoalNode)
@@ -990,8 +1028,7 @@ void		RobotPlayer::findHomeBase(TeamColor teamColor, float location[3])
 	const float* baseParms = world->getBase(teamColor, 0);
 #ifdef TRACE2
 	char buffer[128];
-	sprintf (buffer, "Base for color %d is at (%f, %f, %f)",
-		teamColor, baseParms[0], baseParms[1], baseParms[2]);
+	sprintf (buffer, "Base for color %d is at (%f, %f, %f)", teamColor, baseParms[0], baseParms[1], baseParms[2]);
 	controlPanel->addMessage(buffer);
 #endif
 	location[0] = baseParms[0];

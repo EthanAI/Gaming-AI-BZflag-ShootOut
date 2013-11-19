@@ -1,8 +1,7 @@
-﻿cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
-  TextureManager.cxx
+﻿  TextureManager.cxx
   TextureFont.cxx
   ImageFont.cxx
   FontManager.cxx
   BitmapFont.cxx
   Generating Code...
-  3D.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./3D_Win32_Debug\3D.lib
+  3D.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./3D_Win32_Debug\3D.lib

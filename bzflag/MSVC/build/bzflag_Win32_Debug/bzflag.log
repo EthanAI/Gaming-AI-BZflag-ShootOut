@@ -2,11 +2,11 @@
   AStarNode.cpp
   AutoPilot.cxx
   dectree.cxx
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\astarnode.cpp(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\astarnode.cpp(94): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
   BZDBLocal.cxx
   bzflag.cxx
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\astarnode.cpp(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\astarnode.cpp(94): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
   callbacks.cxx
   clientCommands.cxx
   CommandsImplementation.cxx
@@ -26,12 +26,12 @@ c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\sr
   ShotStatistics.cxx
   ShotStats.cxx
   ShotStatsDefaultKey.cxx
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(214): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(215): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(216): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(217): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(218): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(457): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(214): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(215): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(216): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(217): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(218): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\serverlistfilter.cxx(457): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
   sound.cxx
   TargetingUtils.cxx
   TrackMarks.cxx
@@ -63,91 +63,91 @@ c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\sr
   RegionPriorityQueue.cxx
   RemotePlayer.cxx
   RobotPlayer.cxx
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\playing.cxx(1571): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned long', possible loss of data
   Roster.cxx
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\playing.cxx(1571): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(446): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(683): warning C4018: '<' : signed/unsigned mismatch
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(932): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(933): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(934): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
   ServerCommandKey.cxx
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(446): warning C4800: 'const Obstacle *' : forcing value to bool 'true' or 'false' (performance warning)
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(646): warning C4018: '<' : signed/unsigned mismatch
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(895): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(896): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(897): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(1121): warning C4018: '<' : signed/unsigned mismatch
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(235): warning C4018: '<' : signed/unsigned mismatch
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(231) : while compiling class template member function 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::~HashTableContainer(void)'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(1157): warning C4018: '<' : signed/unsigned mismatch
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(235): warning C4018: '<' : signed/unsigned mismatch
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(231) : while compiling class template member function 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::~HashTableContainer(void)'
           with
           [
               NodeType=AStarNode,
               CostType=double,
               PlannerSpecificVariables=A_star_variables<double>
           ]
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(255) : see reference to class template instantiation 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>' being compiled
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(255) : see reference to class template instantiation 'HashTableContainer<NodeType,CostType,PlannerSpecificVariables>' being compiled
           with
           [
               NodeType=AStarNode,
               CostType=double,
               PlannerSpecificVariables=A_star_variables<double>
           ]
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(255) : while compiling class template member function 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>::~GenericPlanner(void)'
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.h(255) : while compiling class template member function 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>::~GenericPlanner(void)'
           with
           [
               NodeType=AStarNode,
               CostType=double,
               PlannerSpecificVariables=A_star_variables<double>
           ]
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(66) : see reference to class template instantiation 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>' being compiled
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(66) : see reference to class template instantiation 'GenericPlanner<NodeType,CostType,PlannerSpecificVariables>' being compiled
           with
           [
               NodeType=AStarNode,
               CostType=double,
               PlannerSpecificVariables=A_star_variables<double>
           ]
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(1104) : see reference to class template instantiation 'A_star_planner<NodeType,CostType>' being compiled
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\bzflag\robotplayer.cxx(1140) : see reference to class template instantiation 'A_star_planner<NodeType,CostType>' being compiled
           with
           [
               NodeType=AStarNode,
               CostType=double
           ]
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(191): warning C4018: '<' : signed/unsigned mismatch
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(191): warning C4018: '<' : signed/unsigned mismatch
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
           with
           [
               NodeType=AStarNode,
               CostType=double
           ]
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(345): warning C4018: '<' : signed/unsigned mismatch
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(264) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::plan(void)'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(345): warning C4018: '<' : signed/unsigned mismatch
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(264) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::plan(void)'
           with
           [
               NodeType=AStarNode,
               CostType=double
           ]
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(474): warning C4018: '<' : signed/unsigned mismatch
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(471) : while compiling class template member function 'std::vector<_Ty> A_star_planner<NodeType,CostType>::getPlannedPaths(void)'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(474): warning C4018: '<' : signed/unsigned mismatch
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(471) : while compiling class template member function 'std::vector<_Ty> A_star_planner<NodeType,CostType>::getPlannedPaths(void)'
           with
           [
               _Ty=std::vector<AStarNode>,
               NodeType=AStarNode,
               CostType=double
           ]
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(55): warning C4018: '<' : signed/unsigned mismatch
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(32) : while compiling class template member function 'void HeapContainer<NodeType,CostType,PlannerSpecificVariables>::update(SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *,HeapContainer<NodeType,CostType,PlannerSpecificVariables>::BubbleDirection)'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(32) : while compiling class template member function 'void HeapContainer<NodeType,CostType,PlannerSpecificVariables>::update(SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *,HeapContainer<NodeType,CostType,PlannerSpecificVariables>::BubbleDirection)'
           with
           [
               NodeType=AStarNode,
               CostType=double,
               PlannerSpecificVariables=A_star_variables<double>
           ]
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\planners\a_star.h(173) : while compiling class template member function 'void A_star_planner<NodeType,CostType>::init(GenericSearchGraphDescriptor<NodeType,CostType> *,bool)'
           with
           [
               NodeType=AStarNode,
               CostType=double
           ]
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(55): warning C4018: '<' : signed/unsigned mismatch
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(57): warning C4018: '<' : signed/unsigned mismatch
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(59): warning C4018: '<' : signed/unsigned mismatch
-c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(281): warning C4018: '<' : signed/unsigned mismatch
-          c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(277) : while compiling class template member function 'SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::getNodeInHash(NodeType)'
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+          c:\ethan\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\src\yagsbpl\yagsbpl_base.cpp(277) : while compiling class template member function 'SearchGraphNode<NodeType,CostType,PlannerSpecificVariables> *HashTableContainer<NodeType,CostType,PlannerSpecificVariables>::getNodeInHash(NodeType)'
           with
           [
               NodeType=AStarNode,
@@ -187,7 +187,7 @@ c:\dropbox\computer science\ics 462 ai for games\software\shootout\git\bzflag\sr
   defaultBZDB.cxx
   clientConfig.cxx
   glew.c
-  bzflag.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\bzflag_Win32_Debug\bzflag.exe
+  bzflag.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\bzflag_Win32_Debug\bzflag.exe
   A subdirectory or file ..\..\bin_Win32 already exists.
   bzflag_Win32_Debug\bzflag.exe
           1 file(s) copied.

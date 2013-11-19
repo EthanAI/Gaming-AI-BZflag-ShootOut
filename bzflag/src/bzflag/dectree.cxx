@@ -106,22 +106,26 @@ namespace aicore
 		doUpdateDropFlagDecisions[2].falseBranch = &doUpdateDropFlagDecisions[3];
 		
 		doUpdateDropFlagDecisions[3].decFuncPtr = &RobotPlayer::isTeamFlag;
-		doUpdateDropFlagDecisions[3].trueBranch = &doUpdateDropFlagDecisions[4];
-		doUpdateDropFlagDecisions[3].falseBranch = &doUpdateDropFlagActions[1];
-		
-		doUpdateDropFlagDecisions[4].decFuncPtr = &RobotPlayer::isMyTeamFlag;
-		doUpdateDropFlagDecisions[4].trueBranch = &doUpdateDropFlagActions[1];
-		doUpdateDropFlagDecisions[4].falseBranch = &doUpdateDropFlagActions[0];
+		doUpdateDropFlagDecisions[3].trueBranch = &doUpdateDropFlagDecisions[5];
+		doUpdateDropFlagDecisions[3].falseBranch = &doUpdateDropFlagDecisions[4];
+
+		doUpdateDropFlagDecisions[4].decFuncPtr = &RobotPlayer::isUsefulFlag; 
+		doUpdateDropFlagDecisions[4].trueBranch = &doUpdateDropFlagActions[0];
+		doUpdateDropFlagDecisions[4].falseBranch = &doUpdateDropFlagActions[1];
+
+		doUpdateDropFlagDecisions[5].decFuncPtr = &RobotPlayer::isMyTeamFlag; 
+		doUpdateDropFlagDecisions[5].trueBranch = &doUpdateDropFlagActions[1]; //temp change to test other flags
+		doUpdateDropFlagDecisions[5].falseBranch = &doUpdateDropFlagActions[0]; //temp change to test other flags
 
 		doUpdateDropFlagActions[0].actFuncPtr = &RobotPlayer::doNothing;
 		doUpdateDropFlagActions[1].actFuncPtr = &RobotPlayer::dropFlag;
 	}
 
-	DecisionPtr DecisionTrees::doUpdateMotionDecisions[2];
-	ActionPtr DecisionTrees::doUpdateMotionActions[3];
-	DecisionPtr DecisionTrees::doUpdateShootingDecisions[6];
-	ActionPtr DecisionTrees::doUpdateShootingActions[3];
-	DecisionPtr DecisionTrees::doUpdateDropFlagDecisions[5];
-	ActionPtr DecisionTrees::doUpdateDropFlagActions[2];
+	DecisionPtr		DecisionTrees::doUpdateMotionDecisions[2];
+	ActionPtr		DecisionTrees::doUpdateMotionActions[3];
+	DecisionPtr		DecisionTrees::doUpdateShootingDecisions[6];
+	ActionPtr		DecisionTrees::doUpdateShootingActions[3];
+	DecisionPtr		DecisionTrees::doUpdateDropFlagDecisions[6];
+	ActionPtr		DecisionTrees::doUpdateDropFlagActions[2];
 
 }; // end of namespace

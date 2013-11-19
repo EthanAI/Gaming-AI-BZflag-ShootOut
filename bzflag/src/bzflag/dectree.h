@@ -120,7 +120,7 @@ namespace aicore
 		// Holds our list of decisions
 		static DecisionPtr doUpdateMotionDecisions[2];
 		static DecisionPtr doUpdateShootingDecisions[6];
-		static DecisionPtr doUpdateDropFlagDecisions[5];
+		static DecisionPtr doUpdateDropFlagDecisions[6];
 		// Holds our list of actions
 		static ActionPtr doUpdateMotionActions[3];
 		static ActionPtr doUpdateShootingActions[3];

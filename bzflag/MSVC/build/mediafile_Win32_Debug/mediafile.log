@@ -1,1 +1,6 @@
-﻿  mediafile.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./mediafile_Win32_Debug\mediafile.lib
+﻿  ImageFile.cxx
+  MediaFile.cxx
+  PNGImageFile.cxx
+  SGIImageFile.cxx
+  Generating Code...
+  mediafile.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./mediafile_Win32_Debug\mediafile.lib

@@ -4,8 +4,8 @@
     <LocalDebuggerCommand>..\..\bin_Win32\bzflag.exe</LocalDebuggerCommand>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerWorkingDirectory>..\..\bin_Win32</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>..\..\bin_Win32\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>-solo  6</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-solo 2</LocalDebuggerCommandArguments>
   </PropertyGroup>
 </Project>

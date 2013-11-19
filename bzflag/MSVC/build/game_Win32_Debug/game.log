@@ -1,5 +1,4 @@
-﻿cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
-  VotingArbiter.cxx
+﻿  VotingArbiter.cxx
   TextureMatrix.cxx
   StartupInfo.cxx
   ServerListCache.cxx
@@ -23,4 +22,4 @@
   Compiling...
   BzMaterial.cxx
   Generating Code...
-  game.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./game_Win32_Debug\game.lib
+  game.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./game_Win32_Debug\game.lib

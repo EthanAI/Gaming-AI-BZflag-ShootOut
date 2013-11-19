@@ -1,7 +1,6 @@
-﻿cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
-  regfree.c
+﻿  regfree.c
   regexec.c
   regerror.c
   regcomp.c
   Generating Code...
-  regex.vcxproj -> C:\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./regex_Win32_Debug\regex.lib
+  regex.vcxproj -> C:\Ethan\Dropbox\Computer Science\ICS 462 AI for Games\Software\ShootOut\git\bzflag\MSVC\build\./regex_Win32_Debug\regex.lib
